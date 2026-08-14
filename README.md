@@ -74,3 +74,8 @@ https://hub.docker.com/repository/docker/siberian42/custom-nginx/general
 **Подключитесь к первому контейнеру с помощью docker exec и создайте текстовый файл любого содержания в /data. Добавьте ещё один файл в текущий каталог $(pwd) на хостовой машине. Подключитесь во второй контейнер и отобразите листинг и содержание файлов в /data контейнера.**
 
 <img width="823" height="512" alt="image" src="https://github.com/user-attachments/assets/062142cd-eb64-4740-bb40-4ac7f8af1b7b" />
+
+## Задача 5
+
+<img width="1106" height="437" alt="image" src="https://github.com/user-attachments/assets/11853c35-99d5-4417-b19d-4efc0092ca07" />
+
