@@ -66,3 +66,11 @@ https://hub.docker.com/repository/docker/siberian42/custom-nginx/general
 
 <img width="668" height="96" alt="image" src="https://github.com/user-attachments/assets/327696a4-3889-4498-b0d2-bfacea90e5df" />
 
+## Задача 1
+**Запустите первый контейнер из образа centos c любым тегом в фоновом режиме, подключив папку текущий рабочий каталог $(pwd) на хостовой машине в /data контейнера, используя ключ -v. Запустите второй контейнер из образа debian в фоновом режиме, подключив текущий рабочий каталог $(pwd) в /data контейнера.**
+
+<img width="1095" height="171" alt="image" src="https://github.com/user-attachments/assets/d2eb42bf-2c8a-47e8-b467-7106a3de291c" />
+
+**Подключитесь к первому контейнеру с помощью docker exec и создайте текстовый файл любого содержания в /data. Добавьте ещё один файл в текущий каталог $(pwd) на хостовой машине. Подключитесь во второй контейнер и отобразите листинг и содержание файлов в /data контейнера.**
+
+<img width="823" height="512" alt="image" src="https://github.com/user-attachments/assets/062142cd-eb64-4740-bb40-4ac7f8af1b7b" />
