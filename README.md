@@ -34,7 +34,19 @@ https://hub.docker.com/repository/docker/siberian42/custom-nginx/general
 <img width="847" height="311" alt="image" src="https://github.com/user-attachments/assets/a6627e2c-70bd-4a3e-90c3-62238b3d04e2" />
 
 Проверьте вывод команд: ss -tlpn | grep 127.0.0.1:8080 , docker port custom-nginx-t2, curl http://127.0.0.1:8080. Кратко объясните суть возникшей проблемы.
+
 <img width="490" height="137" alt="image" src="https://github.com/user-attachments/assets/b925dad8-4aea-4c84-b0d4-69a851880dbc" />
+При создании контейнера мы настроили проброс порта с 8080 (хост) на 80 (контейнер). В конфиге мы поменяли порт на 81, соответственно порт 80 теперь никто не слушает. Докер получает запрос на порт 8080 и пытается перенаправить его на порт 80, но, поскольку там теперь направлять его некому, это соединение отбрасывается.
+<img width="845" height="362" alt="image" src="https://github.com/user-attachments/assets/98de6a4c-25d3-4ec2-b10d-cce1e4b6fd39" />
+
+<img width="742" height="337" alt="image" src="https://github.com/user-attachments/assets/edf9741b-cfdf-40b4-850f-3b220879abc1" />
+
+<img width="482" height="328" alt="image" src="https://github.com/user-attachments/assets/a997c2c3-ca68-4c4d-b758-5f722638b7b0" />
+
+<img width="1027" height="360" alt="image" src="https://github.com/user-attachments/assets/f4681bbf-c84e-4d19-996e-d2b5ff5cc9ab" />
+
+Останавливаем контейнер и службу docker. Далее открываем файл /var/lib/docker/containers/<ID>/hostconfig.json, ищем там блок PortBindings и меняем порт с 80 на 81. То же самое делаем в файле config.v2.json в блоке ExposedPorts. Запускаем докер и контейнер и убеждаемся, что новый порт проброшен.
+
 
 
 
