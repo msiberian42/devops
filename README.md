@@ -14,6 +14,27 @@ https://hub.docker.com/repository/docker/siberian42/custom-nginx/general
 <img width="1030" height="247" alt="image" src="https://github.com/user-attachments/assets/6e853334-88dd-438b-88dc-0a8372160c0c" />
 
 Убедитесь с помощью curl или веб браузера, что индекс-страница доступна.
+
 <img width="380" height="202" alt="image" src="https://github.com/user-attachments/assets/83aac136-4df8-4ae9-926d-15c6a6600df4" />
+
+## Задача 3
+Подключитесь к контейнеру и нажмите комбинацию Ctrl-C. Выполните docker ps -a и объясните своими словами почему контейнер остановился.
+<img width="1111" height="367" alt="image" src="https://github.com/user-attachments/assets/f3c4eab0-d470-4ce7-8276-7d67511603a6" />
+Нажатие Ctrl + C отправляет сигнал завершения основному процессу и остановливает контейнер. Чтобы выйти из этого режима, не останавливая контейнер, можно закрыть терминал подключения по ssh и зайти через новый. Но лучше подключаться через docker exec и выходить командой exit.
+
+Перезапустите контейнер. Зайдите в интерактивный терминал контейнера "custom-nginx-t2" с оболочкой bash. Установите любимый текстовый редактор(vim, nano итд) с помощью apt-get.
+<img width="928" height="396" alt="image" src="https://github.com/user-attachments/assets/ea17826f-b72f-4fae-b18a-5935e33173fd" />
+<img width="1537" height="741" alt="image" src="https://github.com/user-attachments/assets/c9686ade-9bab-458c-82de-9c881955c20e" />
+
+Отредактируйте файл "/etc/nginx/conf.d/default.conf", заменив порт "listen 80" на "listen 81".
+<img width="591" height="132" alt="image" src="https://github.com/user-attachments/assets/dacce411-e449-4bd6-9165-ad55bf0ee04c" />
+<img width="657" height="456" alt="image" src="https://github.com/user-attachments/assets/28ff008e-a56e-471f-8d6c-fb584f2d1cef" />
+
+Запомните(!) и выполните команду nginx -s reload, а затем внутри контейнера curl http://127.0.0.1:80 ; curl http://127.0.0.1:81. Выйдите из контейнера, набрав в консоли exit или Ctrl-D.
+<img width="847" height="311" alt="image" src="https://github.com/user-attachments/assets/a6627e2c-70bd-4a3e-90c3-62238b3d04e2" />
+
+Проверьте вывод команд: ss -tlpn | grep 127.0.0.1:8080 , docker port custom-nginx-t2, curl http://127.0.0.1:8080. Кратко объясните суть возникшей проблемы.
+<img width="490" height="137" alt="image" src="https://github.com/user-attachments/assets/b925dad8-4aea-4c84-b0d4-69a851880dbc" />
+
 
 
