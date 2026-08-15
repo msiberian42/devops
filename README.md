@@ -83,7 +83,39 @@ https://hub.docker.com/repository/docker/siberian42/custom-nginx/general
 
 В случае наличия в директории двух файлов - compose.yaml и docker-compose.yaml, docker compose выбирает compose.yaml.
 
+**Отредактируйте файл compose.yaml так, чтобы были запущенны оба файла.**
 
+<img width="661" height="292" alt="image" src="https://github.com/user-attachments/assets/511f0377-105d-4d82-9c86-507f94f58652" />
 
+<img width="1113" height="306" alt="image" src="https://github.com/user-attachments/assets/f60a5416-32ba-4a75-b8ad-7ea9e153e532" />
 
+Добавляем в файл compose.yaml блок include со вторым файлом. Теперь отрабатывают оба файла.
+
+**Выполните в консоли вашей хостовой ОС необходимые команды чтобы залить образ custom-nginx как custom-nginx:latest в запущенное вами, локальное registry.**
+
+<img width="970" height="403" alt="image" src="https://github.com/user-attachments/assets/2613263e-11f2-4e21-ba11-80c164d7fd37" />
+
+<img width="957" height="567" alt="image" src="https://github.com/user-attachments/assets/81fa7918-0747-4220-8a1f-7124dd9494e5" />
+
+Задаем образу дополнительный тег localhost:5000/custom-nginx:latest. Если в начале тега стоит адрес и порт, докер интерпретирует это как адрес регистра, в который его нужно пушить. Удаляем образы custom-nginx:latest и localhost:5000/custom-nginx:latest и скачиваем образ из регистра, чтобы проверить, что все работает.
+
+**Откройте страницу "https://127.0.0.1:9000" и произведите начальную настройку portainer.(логин и пароль администратора). Откройте страницу "http://127.0.0.1:9000/#!/home", выберите ваше local окружение. Перейдите на вкладку "stacks" и в "web editor" задеплойте следующий компоуз**
+
+<img width="1057" height="637" alt="image" src="https://github.com/user-attachments/assets/880fe0fb-1330-4f69-8f06-eb53ff3b0ff5" />
+
+<img width="1277" height="782" alt="image" src="https://github.com/user-attachments/assets/b93fb19e-d802-44db-b68d-ac5212f75caf" />
+
+<img width="663" height="758" alt="image" src="https://github.com/user-attachments/assets/bf60ccd3-f216-440a-82a4-eae87c54d745" />
+
+**Перейдите на страницу "http://127.0.0.1:9000/#!/2/docker/containers", выберите контейнер с nginx и нажмите на кнопку "inspect". В представлении <> Tree разверните поле "Config" и сделайте скриншот от поля "AppArmorProfile" до "Driver".**
+
+<img width="685" height="852" alt="image" src="https://github.com/user-attachments/assets/7450c804-f297-4b45-b641-b7bcf19df975" />
+
+<img width="988" height="732" alt="image" src="https://github.com/user-attachments/assets/34eef1fd-93b6-4fcd-a2de-5a9f1e95f60a" />
+
+**Удалите любой из манифестов компоуза(например compose.yaml). Выполните команду "docker compose up -d". Прочитайте warning, объясните суть предупреждения и выполните предложенное действие. Погасите compose-проект ОДНОЙ(обязательно!!) командой.**
+
+<img width="971" height="465" alt="image" src="https://github.com/user-attachments/assets/93698440-0ffb-40d4-b9fe-2588f94d7cc7" />
+
+Это предупреждение означает, что Docker Compose нашел запущенный контейнер, который относится к этому проекту, но не описан в вашем текущем файле compose.yaml. Контейнер считается осиротевшим (orphan), поскольку сам контейнер есть, а его описания в compose файле нет.
 
