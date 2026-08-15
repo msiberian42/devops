@@ -117,5 +117,5 @@ https://hub.docker.com/repository/docker/siberian42/custom-nginx/general
 
 <img width="971" height="465" alt="image" src="https://github.com/user-attachments/assets/93698440-0ffb-40d4-b9fe-2588f94d7cc7" />
 
-Это предупреждение означает, что Docker Compose нашел запущенный контейнер, который относится к этому проекту, но не описан в вашем текущем файле compose.yaml. Контейнер считается осиротевшим (orphan), поскольку сам контейнер есть, а его описания в compose файле нет.
+Это предупреждение означает, что Docker Compose нашел запущенный контейнер, который относится к проекту, но не описан в файле compose.yaml. Контейнер считается осиротевшим (orphan), поскольку сам контейнер есть, а его описания в compose файле нет.
 
