@@ -77,5 +77,13 @@ https://hub.docker.com/repository/docker/siberian42/custom-nginx/general
 
 ## Задача 5
 
+**Создайте отдельную директорию(например /tmp/netology/docker/task5) и 2 файла внутри него. Выполните команду "docker compose up -d". Какой из файлов был запущен и почему?**
+
 <img width="1106" height="437" alt="image" src="https://github.com/user-attachments/assets/11853c35-99d5-4417-b19d-4efc0092ca07" />
+
+В случае наличия в директории двух файлов - compose.yaml и docker-compose.yaml, docker compose выбирает compose.yaml.
+
+
+
+
 
