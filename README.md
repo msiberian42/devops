@@ -18,3 +18,21 @@
 Ссылка на fork:
 
 https://github.com/msiberian42/shvirtd-example-python
+
+## Задача 4
+
+**Придумайте способ не светить логин/пароль в git**
+
+Создаем в репозитории .gitignore и вносим туда файл .env, чтобы он не попадал в коммиты.
+
+**Предоставьте скрипт, cron-task и скриншот с несколькими резервными копиями в "/opt/backup"**
+
+Скрипт бэкапа [тут](https://github.com/msiberian42/shvirtd-example-python/blob/main/db_backup.sh)
+
+Cron-task:
+
+<img width="710" height="512" alt="image" src="https://github.com/user-attachments/assets/1c21f390-baf2-47ab-ad2d-d78e83fe8047" />
+
+Дампы:
+
+<img width="676" height="167" alt="image" src="https://github.com/user-attachments/assets/947b73f2-7feb-4797-b273-a556ddad3d99" />
