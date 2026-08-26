@@ -36,3 +36,23 @@ Cron-task:
 Дампы:
 
 <img width="676" height="167" alt="image" src="https://github.com/user-attachments/assets/947b73f2-7feb-4797-b273-a556ddad3d99" />
+
+## Задача 6
+
+**Скачайте docker образ hashicorp/terraform:latest и скопируйте бинарный файл /bin/terraform на свою локальную машину, используя dive и docker save. Предоставьте скриншоты действий .**
+
+/bin/terraform находится на последнем слое.
+
+<img width="1095" height="646" alt="image" src="https://github.com/user-attachments/assets/2b78e275-bcb6-4a48-a5fa-4f144a4c7c6c" />
+
+Сохраняем образ в архив:
+
+<img width="896" height="182" alt="image" src="https://github.com/user-attachments/assets/1c64ebca-e437-4ab4-99b4-44c74eb6f98a" />
+
+Распаковываем архив:
+
+<img width="767" height="222" alt="image" src="https://github.com/user-attachments/assets/4ff99e72-c771-4d6b-9780-474284c2177f" />
+
+Смотрим в manifest.json номер последнего архива. Проверяем, что terraform лежит там. Извлекаем папку bin/terraform.
+
+<img width="1236" height="682" alt="image" src="https://github.com/user-attachments/assets/c9b6c66c-4de8-4004-8183-cbb5f79c49b6" />
