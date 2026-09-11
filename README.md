@@ -87,6 +87,8 @@ docker ps:
 
 <img width="970" height="55" alt="image" src="https://github.com/user-attachments/assets/9ca4ba6b-e880-4c33-8b56-addb469254e8" />
 
+Получившийся код из задания: [main_task1.tf](https://github.com/msiberian42/devops/blob/homework_terraform1/main_task1.tf)
+
 
 
 
