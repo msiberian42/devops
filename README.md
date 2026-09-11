@@ -4,7 +4,10 @@
 
 **Скачайте и установите Terraform версии >=1.12.0 . Приложите скриншот вывода команды terraform --version.**
 
-<img width="418" height="105" alt="image" src="https://github.com/user-attachments/assets/4495e3ed-c25e-43d6-af10-81f8593570af" />
+Для проекта требуется версия 1.12.х
+
+<img width="778" height="136" alt="image" src="https://github.com/user-attachments/assets/3b25dd79-f0cb-4fcd-b8c5-c46a4f8d50ee" />
+
 
 **Скачайте на свой ПК этот git-репозиторий. Исходный код для выполнения задания расположен в директории 01/src.**
 
@@ -15,5 +18,5 @@
 <img width="378" height="72" alt="image" src="https://github.com/user-attachments/assets/44d50ea9-0f3d-4633-8600-9d255525c644" />
 
 
-
+## Задание 1
 
