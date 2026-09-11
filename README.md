@@ -6,7 +6,7 @@
 
 Для проекта требуется версия 1.12.х
 
-<img width="778" height="136" alt="image" src="https://github.com/user-attachments/assets/3b25dd79-f0cb-4fcd-b8c5-c46a4f8d50ee" />
+<img width="912" height="172" alt="image" src="https://github.com/user-attachments/assets/ddd54f67-8e05-48f3-8975-374320ea8731" />
 
 
 **Скачайте на свой ПК этот git-репозиторий. Исходный код для выполнения задания расположен в директории 01/src.**
