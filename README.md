@@ -65,5 +65,31 @@ docker ps:
 
 <img width="1236" height="68" alt="image" src="https://github.com/user-attachments/assets/a9c2a040-23cd-4a85-81b0-273ea12970ca" />
 
+**6. Замените имя docker-контейнера в блоке кода на hello_world. Не перепутайте имя контейнера и имя образа. Мы всё ещё продолжаем использовать name = "nginx:latest". Выполните команду terraform apply -auto-approve. Объясните своими словами, в чём может быть опасность применения ключа -auto-approve. Догадайтесь или нагуглите зачем может пригодиться данный ключ? В качестве ответа дополнительно приложите вывод команды docker ps.**
+
+Без ключа -auto-approve команда terraform apply сначала показывает план изменений и спрашивает подтверждение, прежде чем их применить. С этим ключом команда все сделает автоматически, что может повлечь удаление/пересоздание ресурсов, удаление данных, настроек сети и т.д. Этот ключ нежелательно использовать в продакшене, чтобы не применить автоматически изменения, которые все уронят и нанесут вред. Однако, ключ -auto-approve может быть полезен на стендах разработки или тестирования, где поломку можно откатить без финансовых потерь для компании. Также его используют в CI/CD для автоматизации развертывания.
+
+docker ps:
+
+<img width="1127" height="87" alt="image" src="https://github.com/user-attachments/assets/3b32e6c7-0af3-4126-b595-c47f098d781a" />
+
+**7. Уничтожьте созданные ресурсы с помощью terraform. Убедитесь, что все ресурсы удалены. Приложите содержимое файла terraform.tfstate.**
+
+<img width="410" height="46" alt="image" src="https://github.com/user-attachments/assets/2e90f74d-7627-4e3d-928f-b90b6f853a18" />
+
+<img width="627" height="290" alt="image" src="https://github.com/user-attachments/assets/06209dbf-b400-474a-af83-51c37c336dd8" />
+
+**8. Объясните, почему при этом не был удалён docker-образ nginx:latest. Ответ ОБЯЗАТЕЛЬНО НАЙДИТЕ В ПРЕДОСТАВЛЕННОМ КОДЕ, а затем ОБЯЗАТЕЛЬНО ПОДКРЕПИТЕ строчкой из документации terraform провайдера docker. (ищите в классификаторе resource docker_image )**
+
+Параметр keep_locally = true у ресурса docker_image указывает Terraform сохранить Docker-образ локально после удаления ресурса.
+
+<img width="346" height="106" alt="image" src="https://github.com/user-attachments/assets/27c9e10a-30f1-4e96-8869-ddb04d36e652" />
+
+<img width="970" height="55" alt="image" src="https://github.com/user-attachments/assets/9ca4ba6b-e880-4c33-8b56-addb469254e8" />
+
+
+
+
+
 
 
