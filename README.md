@@ -99,7 +99,11 @@ docker ps:
 
 Репозиторий с получившимся кодом [тут](https://github.com/msiberian42/terraform-yandex-cloud_homework1/blob/main/main.tf)
 
+## Задание 3
 
+**Попробуйте выполнить тот же код с помощью tofu apply, а не terraform apply.**
+
+Получившийся код тут
 
 
 
