@@ -51,4 +51,19 @@
 Эти параметры существенно сокращают стоимость ВМ. Это полезно, поскольку от учебной ВМ не требуются высокая надежность и стабильная работа. Параметр preemptible = true создаёт прерываемую виртуальную машину. Yandex Cloud может принудительно остановить такую ВМ после 24 часов работы.
 Параметр core_fraction = 5 ограничивает гарантированную долю CPU до 5% от производительности виртуального ядра.
 
+## Задание 2
+
+**1. Замените все хардкод-значения для ресурсов yandex_compute_image и yandex_compute_instance на отдельные переменные. К названиям переменных ВМ добавьте в начало префикс vm_web_ . Пример: vm_web_name.**
+
+<img width="621" height="732" alt="image" src="https://github.com/user-attachments/assets/27ab94c4-30b1-4a87-947a-bf96f3d6744b" />
+
+**2. Объявите нужные переменные в файле variables.tf, обязательно указывайте тип переменной. Заполните их default прежними значениями из main.tf.**
+
+<img width="448" height="607" alt="image" src="https://github.com/user-attachments/assets/c2785c5f-9f4c-457d-8198-cc3bdb6fbeaa" />
+
+<img width="423" height="468" alt="image" src="https://github.com/user-attachments/assets/907fd0a6-c543-47d3-9edd-d58441775e41" />
+
+**3. Проверьте terraform plan. Изменений быть не должно.**
+
+<img width="541" height="40" alt="image" src="https://github.com/user-attachments/assets/578ec0ca-7716-4470-ac05-c9b2ac8cee19" />
 
