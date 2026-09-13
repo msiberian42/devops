@@ -67,3 +67,27 @@
 
 <img width="541" height="40" alt="image" src="https://github.com/user-attachments/assets/578ec0ca-7716-4470-ac05-c9b2ac8cee19" />
 
+## Задание 3
+
+Переменные:
+
+<img width="381" height="756" alt="image" src="https://github.com/user-attachments/assets/aa5af5c8-b445-401f-8a25-e537bed1d59c" />
+
+<img width="387" height="362" alt="image" src="https://github.com/user-attachments/assets/264ea372-bc74-49dc-b7f2-862199b214ad" />
+
+Ресурс db:
+
+<img width="587" height="703" alt="image" src="https://github.com/user-attachments/assets/f1664caa-1b68-46c4-ad87-642068fd7eaf" />
+
+Подсеть db:
+
+<img width="502" height="162" alt="image" src="https://github.com/user-attachments/assets/36cfbda2-66e8-41a5-b8db-54437e8ca0d8" />
+
+Результат:
+
+<img width="546" height="46" alt="image" src="https://github.com/user-attachments/assets/bdb5eadb-3f86-491d-813c-0111622b1936" />
+
+<img width="1003" height="182" alt="image" src="https://github.com/user-attachments/assets/39efc11b-00cd-4a61-8f5d-6e4901bbce4d" />
+
+
+
