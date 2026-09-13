@@ -89,6 +89,16 @@ docker ps:
 
 Получившийся код из задания: [main_task1.tf](https://github.com/msiberian42/devops/blob/homework_terraform1/main_task1.tf)
 
+## Задание 2
+
+**Зайдите на вашу ВМ , подключитесь к контейнеру и проверьте наличие секретных env-переменных с помощью команды env. Запишите ваш финальный код в репозиторий.**
+
+Вывод команды env:
+
+<img width="616" height="431" alt="image" src="https://github.com/user-attachments/assets/bcdc9657-30ba-4382-b36a-e03a6e767ccd" />
+
+Репозиторий с получившимся кодом [тут](https://github.com/msiberian42/terraform-yandex-cloud_homework1/blob/main/main.tf)
+
 
 
 
