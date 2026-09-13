@@ -103,9 +103,9 @@ docker ps:
 
 **Попробуйте выполнить тот же код с помощью tofu apply, а не terraform apply.**
 
-Получившийся код тут
+Команды: tofu init, tofu plan, tofu apply. Вывод команды env:
 
-
+<img width="1193" height="546" alt="image" src="https://github.com/user-attachments/assets/37cdeef3-9569-4dde-adea-7db640626fb1" />
 
 
 
