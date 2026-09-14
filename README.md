@@ -146,6 +146,19 @@
 
 <img width="567" height="232" alt="image" src="https://github.com/user-attachments/assets/7c2eabed-0a68-4cc9-9391-5433cfa17d47" />
 
+**2.Создайте и используйте отдельную map(object) переменную для блока metadata, она должна быть общая для всех ваших ВМ.**
+
+Объявление переменной metadata:
+
+<img width="328" height="142" alt="image" src="https://github.com/user-attachments/assets/dfaf8f88-7868-4825-8294-c3af3a11b3f9" />
+
+Задание значения переменной в файле terraform.tfvars:
+
+<img width="531" height="197" alt="image" src="https://github.com/user-attachments/assets/d927cec2-f578-41cb-9ba6-16984ba3a5cd" />
+
+В main.tf для обоих ВМ прописываем так:
+
+<img width="662" height="112" alt="image" src="https://github.com/user-attachments/assets/2818873a-0128-41fb-b19d-34a05e16d6fc" />
 
 
 
