@@ -134,6 +134,18 @@
 
 ## Задание 6
 
+**1. Вместо использования трёх переменных ".._cores",".._memory",".._core_fraction" в блоке resources {...}, объедините их в единую map-переменную vms_resources и внутри неё конфиги обеих ВМ в виде вложенного map(object).**
+
+Новая переменная vms_resources:
+
+<img width="267" height="501" alt="image" src="https://github.com/user-attachments/assets/a985a26a-1f41-4d7b-a143-a8aef50fe835" />
+
+Изменения в main.tf:
+
+<img width="577" height="186" alt="image" src="https://github.com/user-attachments/assets/a2e10ab6-cd37-4a11-9876-8b7a875882ce" />
+
+<img width="567" height="232" alt="image" src="https://github.com/user-attachments/assets/7c2eabed-0a68-4cc9-9391-5433cfa17d47" />
+
 
 
 
