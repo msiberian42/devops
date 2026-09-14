@@ -104,6 +104,36 @@
 
 ## Задание 5
 
+**В файле locals.tf опишите в одном local-блоке имя каждой ВМ, используйте интерполяцию ${..} с НЕСКОЛЬКИМИ переменными по примеру из лекции.
+Замените переменные внутри ресурса ВМ на созданные вами local-переменные.
+Примените изменения.**
+
+Файл locals.tf:
+
+<img width="576" height="132" alt="image" src="https://github.com/user-attachments/assets/2bc00dc2-769c-4faf-a6c7-526c8bafe43b" />
+
+Новое дефолтное имя переменной vpc_name:
+
+<img width="448" height="127" alt="image" src="https://github.com/user-attachments/assets/cdde4e06-c3c2-4098-8bab-30fb173c2a43" />
+
+Новые дефолтные имена для платформ:
+
+<img width="293" height="97" alt="image" src="https://github.com/user-attachments/assets/a798bebc-8c57-4112-81e8-ac87156597bc" />
+
+<img width="276" height="107" alt="image" src="https://github.com/user-attachments/assets/ae50430b-df6e-4483-90f8-37114d29571e" />
+
+В имени ресурсов меняем var на local:
+
+<img width="491" height="82" alt="image" src="https://github.com/user-attachments/assets/077a8768-bfbf-4ed1-a7db-c1c444b2b82a" />
+
+<img width="426" height="118" alt="image" src="https://github.com/user-attachments/assets/700d3f50-7e0e-4677-9eb9-12baf564e8db" />
+
+Результат выполнение команды apply:
+
+<img width="556" height="55" alt="image" src="https://github.com/user-attachments/assets/6cd1a4bf-fbe1-4fa7-b5ab-06db50978e05" />
+
+## Задание 6
+
 
 
 
