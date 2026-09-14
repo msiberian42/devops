@@ -89,5 +89,22 @@
 
 <img width="1003" height="182" alt="image" src="https://github.com/user-attachments/assets/39efc11b-00cd-4a61-8f5d-6e4901bbce4d" />
 
+## Задание 4
+
+**Объявите в файле outputs.tf один output , содержащий: instance_name, external_ip, fqdn для каждой из ВМ в удобном лично для вас формате.(без хардкода!!!)
+Примените изменения.**
+
+Файл outputs.tf:
+
+<img width="958" height="442" alt="image" src="https://github.com/user-attachments/assets/5d251d5f-b6ca-467d-a140-a360acada659" />
+
+Вывод команды terraform output:
+
+<img width="585" height="328" alt="image" src="https://github.com/user-attachments/assets/ce9f7836-8d24-48bd-a5fc-2af631d6d40f" />
+
+## Задание 5
+
+
+
 
 
