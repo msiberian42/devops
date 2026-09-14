@@ -160,6 +160,20 @@
 
 <img width="662" height="112" alt="image" src="https://github.com/user-attachments/assets/2818873a-0128-41fb-b19d-34a05e16d6fc" />
 
+**3. Найдите и закоментируйте все, более не используемые переменные проекта.**
+
+<img width="397" height="100" alt="image" src="https://github.com/user-attachments/assets/e9d1022a-9fa5-4ef5-9d9c-73497cbf839f" />
+
+<img width="395" height="103" alt="image" src="https://github.com/user-attachments/assets/cc88a85d-4583-4047-be2a-70bc7a4bb2d4" />
+
+<img width="356" height="696" alt="image" src="https://github.com/user-attachments/assets/2479a744-387a-40de-a8f7-d06f087f16c7" />
+
+**4. Проверьте terraform plan. Изменений быть не должно.**
+
+<img width="537" height="41" alt="image" src="https://github.com/user-attachments/assets/0cf9d2e0-efb3-4cae-9020-f7769466edd7" />
+
+
+
 
 
 
