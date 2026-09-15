@@ -206,10 +206,34 @@
 
 ## Задание 9
 
+**Используя инструкцию https://cloud.yandex.ru/ru/docs/vpc/operations/create-nat-gateway#tf_1, настройте для ваших ВМ nat_gateway. Для проверки уберите внешний IP адрес (nat=false) у ваших ВМ и проверьте доступ в интернет с ВМ, подключившись к ней через serial console. Для подключения предварительно через ssh измените пароль пользователя: sudo passwd ubuntu**
 
+Создаем файл nat.tf:
 
+<img width="665" height="411" alt="image" src="https://github.com/user-attachments/assets/21b4cb8e-c1ea-4c1f-b3fc-7ea32e04b112" />
 
+Добавляем таблицу маршрутизации в ресурсы подсетей:
 
+<img width="625" height="398" alt="image" src="https://github.com/user-attachments/assets/41b450bd-80fe-44a2-9ed4-da5a624b29d8" />
 
+Убираем внешние IP у ВМ:
 
+<img width="451" height="135" alt="image" src="https://github.com/user-attachments/assets/38a08a7f-e827-406a-81a9-da027f979da2" />
 
+<img width="472" height="136" alt="image" src="https://github.com/user-attachments/assets/2d826cc5-7613-425d-bc95-ea5f2f58eeec" />
+
+Меняем пароли:
+
+<img width="453" height="87" alt="image" src="https://github.com/user-attachments/assets/9c819033-9734-41cc-987c-f2c1d24937e7" />
+
+Применяем изменения:
+
+<img width="567" height="52" alt="image" src="https://github.com/user-attachments/assets/00ffea8c-7f46-48c4-842a-6adf8b246702" />
+
+Проверяем:
+
+<img width="672" height="116" alt="image" src="https://github.com/user-attachments/assets/4f6f26d3-3f83-4168-84a7-0e4f5258fdf3" />
+
+ВМ все еще может выходить в интернет через NAT Gateway, несмотря на то, что теперь не имеет своего публичного IP.
+
+Итоговый код проекта тут
