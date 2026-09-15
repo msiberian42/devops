@@ -192,6 +192,24 @@
 
 ## Задание 8
 
+**1. Напишите и проверьте переменную test и полное описание ее type в соответствии со значением из terraform.tfvars**
+
+В variables.tf прописываем:
+
+<img width="335" height="85" alt="image" src="https://github.com/user-attachments/assets/1ba78ff4-787f-4347-8037-57344b9930f8" />
+
+В terraform.tfvars добавляем значение из задания.
+
+**2. Напишите выражение в terraform console, которое позволит вычленить строку "ssh -o 'StrictHostKeyChecking=no' ubuntu@62.84.124.117" из этой переменной.**
+
+<img width="526" height="68" alt="image" src="https://github.com/user-attachments/assets/a8e2b67e-d8fd-47d9-88ec-5ca266121afe" />
+
+## Задание 9
+
+
+
+
+
 
 
 
