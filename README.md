@@ -236,4 +236,4 @@
 
 ВМ все еще может выходить в интернет через NAT Gateway, несмотря на то, что теперь не имеет своего публичного IP.
 
-Итоговый код проекта тут
+Итоговый код проекта [тут](https://github.com/msiberian42/devops/tree/homework_terraform2/terraform_2)
