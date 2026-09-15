@@ -1,0 +1,27 @@
+metadata = {
+  common = {
+    serial_port_enable = 1
+    ssh_keys           = "ubuntu:ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIGLlWurqbjYEPXOMw2gTEd6sM0MM5jizkqFpVCsDHxJx p-berezovsky42@yandex.com"
+  }
+}
+
+test = [
+  {
+    "dev1" = [
+      "ssh -o 'StrictHostKeyChecking=no' ubuntu@62.84.124.117",
+      "10.0.1.7",
+    ]
+  },
+  {
+    "dev2" = [
+      "ssh -o 'StrictHostKeyChecking=no' ubuntu@84.252.140.88",
+      "10.0.2.29",
+    ]
+  },
+  {
+    "prod1" = [
+      "ssh -o 'StrictHostKeyChecking=no' ubuntu@51.250.2.101",
+      "10.0.1.30",
+    ]
+  },
+]
