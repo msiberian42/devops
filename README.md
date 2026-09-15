@@ -172,7 +172,25 @@
 
 <img width="537" height="41" alt="image" src="https://github.com/user-attachments/assets/0cf9d2e0-efb3-4cae-9020-f7769466edd7" />
 
+## Задание 7
 
+**1. Напишите, какой командой можно отобразить второй элемент списка test_list.**
+
+<img width="575" height="87" alt="image" src="https://github.com/user-attachments/assets/cd8aff74-b3c0-422c-b5a1-893c5d102425" />
+
+**2. Найдите длину списка test_list с помощью функции length(<имя переменной>).**
+
+<img width="235" height="47" alt="image" src="https://github.com/user-attachments/assets/80cb6fc6-013d-487d-9683-80dfa4a8dd11" />
+
+**3. Напишите, какой командой можно отобразить значение ключа admin из map test_map.**
+
+<img width="242" height="55" alt="image" src="https://github.com/user-attachments/assets/e475beef-6049-4735-b8ba-fa2739dc0b41" />
+
+** 4. Напишите interpolation-выражение, результатом которого будет: "John is admin for production server based on OS ubuntu-20-04 with X vcpu, Y ram and Z virtual disks", используйте данные из переменных test_list, test_map, servers и функцию length() для подстановки значений.**
+
+<img width="1097" height="98" alt="image" src="https://github.com/user-attachments/assets/3ab8720d-787f-4146-a3cf-ea512cdb044f" />
+
+## Задание 8
 
 
 
