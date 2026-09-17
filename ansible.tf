@@ -1,0 +1,41 @@
+variable "web_provision" {
+  type        = bool
+  default     = true
+  description = "ansible provision switch variable"
+}
+
+resource "local_file" "ansible_inventory" {
+  filename = "${abspath(path.module)}/for.ini"
+
+  content = templatefile("${abspath(path.module)}/inventory.tftpl", {
+    ssh_private_key = pathexpand("~/.ssh/mysshkey")
+
+    web_hosts = [
+      for vm in yandex_compute_instance.web : {
+        name = vm.name
+        ip   = vm.network_interface[0].nat_ip_address
+        fqdn = vm.fqdn
+      }
+    ]
+
+    db_hosts = [
+      for vm in yandex_compute_instance.db : {
+        name = vm.name
+        ip   = vm.network_interface[0].nat_ip_address
+        fqdn = vm.fqdn
+      }
+    ]
+
+    storage_host = {
+      name = yandex_compute_instance.storage.name
+      ip   = yandex_compute_instance.storage.network_interface[0].nat_ip_address
+      fqdn = yandex_compute_instance.storage.fqdn
+    }
+  })
+
+  depends_on = [
+    yandex_compute_instance.web,
+    yandex_compute_instance.db,
+    yandex_compute_instance.storage
+  ]
+}

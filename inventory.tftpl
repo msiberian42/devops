@@ -1,0 +1,15 @@
+[web] 
+%{ for vm in web_hosts ~} 
+${vm.name} ansible_host=${vm.ip} fqdn=${vm.fqdn}
+%{ endfor ~} 
+
+[db] 
+%{ for vm in db_hosts ~} 
+${vm.name} ansible_host=${vm.ip} fqdn=${vm.fqdn}
+%{ endfor ~} 
+
+[storage] 
+${storage_host.name} ansible_host=${storage_host.ip} fqdn=${storage_host.fqdn}
+
+[all:vars] ansible_user=ubuntu 
+ansible_ssh_private_key_file=${ssh_private_key}

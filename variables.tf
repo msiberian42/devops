@@ -30,3 +30,17 @@ variable "vpc_name" {
   default     = "develop"
   description = "VPC network&subnet name"
 }
+
+variable "compute_disk_resources" {
+  type = map(object({
+    disk_type = string
+    size      = number
+  }))
+
+  default = {
+    common = {
+      disk_type = "network-hdd"
+      size      = 1
+    }
+  }
+}
