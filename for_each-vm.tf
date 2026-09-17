@@ -22,10 +22,10 @@ resource "yandex_compute_instance" "db" {
     preemptible = var.vm_web_preemptible
   }
   network_interface {
-    subnet_id          = yandex_vpc_subnet.develop.id
-    nat                = var.vm_web_nat
+    subnet_id = yandex_vpc_subnet.develop.id
+    #nat                = var.vm_web_nat
     security_group_ids = [yandex_vpc_security_group.example.id]
-    #nat = false
+    nat                = false
   }
 
   metadata = {
