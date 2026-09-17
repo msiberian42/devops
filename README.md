@@ -127,3 +127,35 @@ outpuf.tf:
 
 ## Задание 7
 
+**Предложите выражение в terraform console, которое удалит из данной переменной 3 элемент из: subnet_ids и subnet_zones.(значения могут быть любыми)**
+
+В terraform console можно использовать выражение с slice() и объединением списков:
+
+merge(
+  local.vpc,
+  {
+    subnet_ids   = concat(slice(local.vpc.subnet_ids, 0, 2), slice(local.vpc.subnet_ids, 3, length(local.vpc.subnet_ids)))
+    subnet_zones = concat(slice(local.vpc.subnet_zones, 0, 2), slice(local.vpc.subnet_zones, 3, length(local.vpc.subnet_zones)))
+  }
+)
+
+<img width="590" height="707" alt="image" src="https://github.com/user-attachments/assets/af073869-10e1-4ea0-bb29-68af9a90f1ed" />
+
+## Задание 8
+
+**Идентифицируйте и устраните намеренно допущенную в tpl-шаблоне ошибку. Обратите внимание, что terraform сам сообщит на какой строке и в какой позиции ошибка!**
+
+<img width="1432" height="333" alt="image" src="https://github.com/user-attachments/assets/ec2c2f20-2995-4511-936d-1fcb191667a4" />
+
+Ошибки: не закрыта фигурная скобка в переменной ansible_host, недопустимый символ пробела в platform_id, лишняя фигурная скобка в конце строки:
+
+<img width="1116" height="161" alt="image" src="https://github.com/user-attachments/assets/1d6b8332-ab14-424f-9cb1-569b17dff569" />
+
+Исправленный вариант:
+
+<img width="1105" height="138" alt="image" src="https://github.com/user-attachments/assets/2fba9fd9-5b8d-4b63-8092-3556a42daa98" />
+
+## Задание 9
+
+
+
