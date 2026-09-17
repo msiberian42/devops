@@ -115,8 +115,15 @@ outpuf.tf:
 
 ## Задание 6
 
+**Используя null_resource и local-exec, примените ansible-playbook к ВМ из ansible inventory-файла.**
 
+Ресурс:
 
+<img width="922" height="336" alt="image" src="https://github.com/user-attachments/assets/95ef4cf7-1230-4d48-a9eb-e0d64950e008" />
 
+**Модифицируйте файл-шаблон hosts.tftpl. Необходимо отредактировать переменную ansible_host="<внешний IP-address или внутренний IP-address если у ВМ отсутвует внешний адрес>. Для проверки работы уберите у ВМ внешние адреса(nat=false). Этот вариант используется при работе через bastion-сервер. Для зачёта предоставьте код вместе с основной частью задания.**
 
+Итоговый коммит [тут](https://github.com/msiberian42/devops/commit/a147a4793e5201ef2dea42e10932c9c4214aa726)
+
+## Задание 7
 
