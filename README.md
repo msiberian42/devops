@@ -157,5 +157,11 @@ merge(
 
 ## Задание 9
 
+Cписок от "rc01" до "rc99":
 
+<img width="451" height="211" alt="image" src="https://github.com/user-attachments/assets/63288c36-b57b-44e4-a564-98fc7725cdd8" />
+
+Cписок от "rc01" до "rc96", пропуская все номера, заканчивающиеся на "0","7", "8", "9", за исключением "rc19":
+
+<img width="717" height="363" alt="image" src="https://github.com/user-attachments/assets/375c10a2-9d64-4720-9c02-0b91a637eff0" />
 
