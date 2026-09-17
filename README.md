@@ -68,8 +68,38 @@
 
 <img width="655" height="872" alt="image" src="https://github.com/user-attachments/assets/1b7ed256-bd25-47fb-93d1-66ec5819bc17" />
 
+<img width="606" height="270" alt="image" src="https://github.com/user-attachments/assets/5d081513-6516-4f3e-8892-0cea13f77ba5" />
+
 ## Задание 4
 
+**1. В файле ansible.tf создайте inventory-файл для ansible. Используйте функцию tepmplatefile и файл-шаблон для создания ansible inventory-файла из лекции. Готовый код возьмите из демонстрации к лекции demonstration2. Передайте в него в качестве переменных группы виртуальных машин из задания 2.1, 2.2 и 3.2, т. е. 5 ВМ.**
+
+Создаем inventory.tftpl:
+
+<img width="605" height="407" alt="image" src="https://github.com/user-attachments/assets/a4bd5ad6-eb1f-4727-8ad2-34c597f32c4a" />
+
+Создаем ansible.tf:
+
+<img width="877" height="908" alt="image" src="https://github.com/user-attachments/assets/6ca24651-5bf9-4194-831c-1f40ab435a15" />
+
+**3. Добавьте в инвентарь переменную fqdn.**
+
+<img width="842" height="666" alt="image" src="https://github.com/user-attachments/assets/eda62a6e-b88c-4bed-9e37-96f70e505a85" />
+
+<img width="832" height="407" alt="image" src="https://github.com/user-attachments/assets/ac8cf3f9-24f9-48f6-a046-5654ada37d76" />
+
+**4. Выполните код. Приложите скриншот получившегося файла.**
+
+Без переменной hostname:
+
+<img width="832" height="365" alt="image" src="https://github.com/user-attachments/assets/2a91121c-b686-4c89-a589-5855cbe2da7a" />
+
+Прописывем переменную hostname в ресурсах ВМ:
+
+<img width="476" height="107" alt="image" src="https://github.com/user-attachments/assets/d908f196-bbf7-4402-b7eb-09516ae766e3" />
+
+<img width="745" height="347" alt="image" src="https://github.com/user-attachments/assets/db162c97-6c76-4427-b257-fa4c9602612c" />
 
 
+Итоговый код проекта тут
 
