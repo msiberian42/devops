@@ -105,6 +105,18 @@
 
 ## Задание 5
 
+outpuf.tf:
+
+<img width="547" height="600" alt="image" src="https://github.com/user-attachments/assets/5aaafebb-59dc-4091-b0b8-662f03ecb6d8" />
+
+Вывод:
+
+<img width="482" height="603" alt="image" src="https://github.com/user-attachments/assets/3f6c7eb0-79ec-44ab-9a40-80fa72d27010" />
+
+## Задание 6
+
+
+
 
 
 
