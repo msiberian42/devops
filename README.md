@@ -16,10 +16,8 @@
 
 <img width="430" height="207" alt="image" src="https://github.com/user-attachments/assets/39238fee-61b0-47b2-a250-ca9a03983128" />
 
-
 Сам ключ прописан в personal.auto.tfvars
 
-## Задание 2
 
 **2. Добавьте в файл cloud-init.yml установку nginx.**
 
@@ -28,8 +26,6 @@
 <img width="572" height="327" alt="image" src="https://github.com/user-attachments/assets/84583774-bdd7-41bf-bc74-ef22ba8135f3" />
 
 <img width="775" height="562" alt="image" src="https://github.com/user-attachments/assets/0c2a4706-7baf-4fb3-a170-021772808e1f" />
-
-## Задание 3
 
 **3. Предоставьте скриншот подключения к консоли и вывод команды sudo nginx -t, скриншот консоли ВМ yandex cloud с их метками. Откройте terraform console и предоставьте скриншот содержимого модуля. Пример: > module.marketing_vm**
 
