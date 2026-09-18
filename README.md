@@ -135,5 +135,35 @@
 
 **Измените модуль vpc так, чтобы он мог создать подсети во всех зонах доступности, переданных в переменной типа list(object) при вызове модуля.**
 
+Меняем в модуле main.tf, variables.tf. output.tf:
+
+<img width="551" height="347" alt="image" src="https://github.com/user-attachments/assets/de91274a-8680-4c01-ab62-03760aa0a690" />
+
+<img width="455" height="372" alt="image" src="https://github.com/user-attachments/assets/5947c39f-39da-4f98-b6cc-a834c9db0841" />
+
+<img width="572" height="333" alt="image" src="https://github.com/user-attachments/assets/2e23d2e7-356b-4248-b520-3b16bb4cbc39" />
+
+Вызов модуля в проекте:
+
+<img width="558" height="425" alt="image" src="https://github.com/user-attachments/assets/c9c882c1-0bd9-4c38-b948-7af1fa4421dd" />
+
+Меняем переменные в вм:
+
+<img width="882" height="358" alt="image" src="https://github.com/user-attachments/assets/e18e0c80-60b3-48b7-b3f3-b4111fc87c86" />
+
+<img width="887" height="367" alt="image" src="https://github.com/user-attachments/assets/c410bff5-1504-45b7-9c5a-bc0ddd2f6e30" />
+
+Результат:
+
+<img width="567" height="292" alt="image" src="https://github.com/user-attachments/assets/2092dfe5-2e0a-42cd-848e-b19c5abe67c5" />
+
+<img width="1136" height="512" alt="image" src="https://github.com/user-attachments/assets/3598103e-b47f-4c26-91c3-2a5e6e4ca19d" />
+
+Коммит проекта по итогам задания 4 [тут](https://github.com/msiberian42/devops/commit/0a98a0d61a9b3b31ed054711968e81740daf09a2)
+
+## Задание 5
+
+
+
 
 
