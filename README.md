@@ -85,10 +85,6 @@
 
 <img width="482" height="225" alt="image" src="https://github.com/user-attachments/assets/07f4e590-1cec-4dcd-8071-97865abba391" />
 
-
-
-<img width="322" height="121" alt="image" src="https://github.com/user-attachments/assets/247e9089-25d6-4fc0-a688-2dd877b4f316" />
-
 **Пришлите скриншот информации из terraform console о своем модуле. Пример: > module.vpc_dev:**
 
 <img width="322" height="121" alt="image" src="https://github.com/user-attachments/assets/9700742b-9793-45e0-ae7b-f6a76f43cd0d" />
@@ -106,5 +102,36 @@
 <img width="701" height="582" alt="image" src="https://github.com/user-attachments/assets/a067acf2-617d-4c23-bf68-caddc5d0ce8c" />
 
 ## Задание 3
+
+**1. Выведите список ресурсов в стейте.**
+
+<img width="541" height="207" alt="image" src="https://github.com/user-attachments/assets/e90c8108-23cd-4fa7-85c9-a8354da91963" />
+
+**2. Полностью удалите из стейта модуль vpc.**
+
+<img width="610" height="107" alt="image" src="https://github.com/user-attachments/assets/5183e78d-a1af-4c30-b078-2582504c4d23" />
+
+**3. Полностью удалите из стейта модуль vm.**
+
+<img width="962" height="168" alt="image" src="https://github.com/user-attachments/assets/68de3d93-e423-4efb-9804-f541c341b8a6" />
+
+**4. Импортируйте всё обратно. Проверьте terraform plan. Значимых(!!) изменений быть не должно. Приложите список выполненных команд и скриншоты процессы.**
+
+<img width="1127" height="386" alt="image" src="https://github.com/user-attachments/assets/70c3e9ba-fd71-4ad6-9dba-1daf97aafb3c" />
+
+<img width="1125" height="391" alt="image" src="https://github.com/user-attachments/assets/bea3c2fd-c4a7-46c4-b739-08a3b94b9848" />
+
+<img width="1150" height="385" alt="image" src="https://github.com/user-attachments/assets/14edf681-b445-4086-bd91-0662e0fdf105" />
+
+<img width="1141" height="416" alt="image" src="https://github.com/user-attachments/assets/43cb78e3-5142-407b-a448-5074e157267b" />
+
+Проверка:
+
+<img width="1301" height="582" alt="image" src="https://github.com/user-attachments/assets/70d7f73d-ab21-4bc2-872f-6bd8cdf363b6" />
+
+## Задание 4
+
+
+
 
 
