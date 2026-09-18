@@ -71,7 +71,40 @@
 
 ## Задание 2
 
+**Напишите локальный модуль vpc, который будет создавать 2 ресурса: одну сеть и одну подсеть в зоне, объявленной при вызове модуля, например: ru-central1-a.
+Вы должны передать в модуль переменные с названием сети, zone и v4_cidr_blocks.
+Модуль должен возвращать в root module с помощью output информацию о yandex_vpc_subnet.**
+
+Создаем в проекте каталог modules\vpc. Создаем в нем файлы main.tf, variables.tf, outputs.tf, providers.tf:
+
+<img width="590" height="270" alt="image" src="https://github.com/user-attachments/assets/fe9b4fb5-37ab-4efa-97dc-08e8fc7c0da9" />
+
+<img width="555" height="380" alt="image" src="https://github.com/user-attachments/assets/62aa3576-2103-4d4c-8ffe-3b4576e9aa4a" />
+
+<img width="552" height="157" alt="image" src="https://github.com/user-attachments/assets/c8312873-1d42-4b9c-9971-140587db4b6c" />
+
+<img width="482" height="225" alt="image" src="https://github.com/user-attachments/assets/07f4e590-1cec-4dcd-8071-97865abba391" />
 
 
+
+<img width="322" height="121" alt="image" src="https://github.com/user-attachments/assets/247e9089-25d6-4fc0-a688-2dd877b4f316" />
+
+**Пришлите скриншот информации из terraform console о своем модуле. Пример: > module.vpc_dev:**
+
+<img width="322" height="121" alt="image" src="https://github.com/user-attachments/assets/9700742b-9793-45e0-ae7b-f6a76f43cd0d" />
+
+**4. Замените ресурсы yandex_vpc_network и yandex_vpc_subnet созданным модулем. Не забудьте передать необходимые параметры сети из модуля vpc в модуль с виртуальной машиной.**
+
+<img width="596" height="451" alt="image" src="https://github.com/user-attachments/assets/9385f99f-31ff-4fef-acbd-74b3d8aad054" />
+
+<img width="430" height="476" alt="image" src="https://github.com/user-attachments/assets/cf7d5ef0-4a7f-4a26-9ff7-bf3137136e30" />
+
+**5. Сгенерируйте документацию к модулю с помощью terraform-docs.**
+
+<img width="848" height="43" alt="image" src="https://github.com/user-attachments/assets/f884c87f-e562-4971-b0af-aeb3106fe2e6" />
+
+<img width="701" height="582" alt="image" src="https://github.com/user-attachments/assets/a067acf2-617d-4c23-bf68-caddc5d0ce8c" />
+
+## Задание 3
 
 
