@@ -129,7 +129,7 @@
 
 <img width="1301" height="582" alt="image" src="https://github.com/user-attachments/assets/70d7f73d-ab21-4bc2-872f-6bd8cdf363b6" />
 
-Коммит проекта по итогам задания 3 [тут](https://github.com/msiberian42/devops/commit/f5994955aedbd21c4dbdb2f2233adff4c318699e)
+Коммит проекта по итогам задания 3 [тут]([https://github.com/msiberian42/devops/commit/f5994955aedbd21c4dbdb2f2233adff4c318699e](https://github.com/msiberian42/devops/tree/e4b93fb7dd3776a987084e6e32eaf657d8f33c83))
 
 ## Задание 4
 
