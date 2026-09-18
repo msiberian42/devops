@@ -8,12 +8,30 @@
 #   v4_cidr_blocks = var.default_cidr
 # }
 
-module "vpc" {
-  source = "./modules/vpc"
+# module "vpc" {
+#   source = "./modules/vpc"
 
-  network_name = var.vpc_name
-  zone = var.default_zone
-  v4_cidr_blocks = var.default_cidr
+#   network_name = var.vpc_name
+#   zone = var.default_zone
+#   v4_cidr_blocks = var.default_cidr
+# }
+
+module "vpc_prod" {
+  source   = "./modules/vpc"
+  env_name = "production"
+  subnets = [
+    { zone = "ru-central1-a", cidr = "10.0.1.0/24" },
+    { zone = "ru-central1-b", cidr = "10.0.2.0/24" },
+    { zone = "ru-central1-d", cidr = "10.0.3.0/24" },
+  ]
+}
+
+module "vpc_dev" {
+  source   = "./modules/vpc"
+  env_name = "develop"
+  subnets = [
+    { zone = "ru-central1-a", cidr = "10.0.1.0/24" },
+  ]
 }
 
 # Передаем SSH-ключ в cloud-init
@@ -29,9 +47,12 @@ data "template_file" "cloudinit" {
 module "marketing-vm" {
   source         = "git::https://github.com/udjin10/yandex_compute_instance.git?ref=main"
   env_name       = var.env_name
-  network_id     = module.vpc.subnet.network_id
-  subnet_zones   = [module.vpc.subnet.zone]
-  subnet_ids     = [module.vpc.subnet.id]
+  # network_id     = module.vpc.subnet.network_id
+  #   subnet_zones   = [module.vpc.subnet.zone]
+  # subnet_ids     = [module.vpc.subnet.id]
+  network_id     = module.vpc_dev.subnet["ru-central1-a"].network_id
+  subnet_zones   = [module.vpc_dev.subnet["ru-central1-a"].zone]
+  subnet_ids     = [module.vpc_dev.subnet["ru-central1-a"].id]
   instance_name  = var.project_variables["marketing"].instance_name
   instance_count = var.project_variables["marketing"].instance_count
   image_family   = var.vm_image_family
@@ -52,9 +73,12 @@ module "marketing-vm" {
 module "analytics-vm" {
   source         = "git::https://github.com/udjin10/yandex_compute_instance.git?ref=main"
   env_name       = var.env_name
-  network_id     = module.vpc.subnet.network_id
-  subnet_zones   = [module.vpc.subnet.zone]
-  subnet_ids     = [module.vpc.subnet.id]
+  #   network_id     = [module.vpc.subnet.network_id]
+  # subnet_zones   = [module.vpc.subnet.zone]
+  # subnet_ids     = [module.vpc.subnet.id]
+  network_id     = module.vpc_dev.subnet["ru-central1-a"].network_id
+  subnet_zones   = [module.vpc_dev.subnet["ru-central1-a"].zone]
+  subnet_ids     = [module.vpc_dev.subnet["ru-central1-a"].id]
   instance_name  = var.project_variables["analytics"].instance_name
   instance_count = var.project_variables["analytics"].instance_count
   image_family   = var.vm_image_family
