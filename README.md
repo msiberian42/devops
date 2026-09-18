@@ -33,9 +33,47 @@
 
 **3. Предоставьте скриншот подключения к консоли и вывод команды sudo nginx -t, скриншот консоли ВМ yandex cloud с их метками. Откройте terraform console и предоставьте скриншот содержимого модуля. Пример: > module.marketing_vm**
 
+Результат команды sudo nginx -t:
 
+<img width="607" height="106" alt="image" src="https://github.com/user-attachments/assets/f38ae04a-1ef7-4249-94c2-44119a394973" />
 
+<img width="607" height="118" alt="image" src="https://github.com/user-attachments/assets/3510671d-4e88-423d-926f-5959b76a017c" />
 
+Консоль яндекс:
+
+<img width="717" height="412" alt="image" src="https://github.com/user-attachments/assets/4e8984b1-d8d6-42c6-90e3-ffbf95e2959a" />
+
+<img width="716" height="395" alt="image" src="https://github.com/user-attachments/assets/ec7562f3-99dc-44c6-90a3-db8315b6f4c2" />
+
+Содержимое модуля marketing-vm:
+
+<img width="642" height="783" alt="image" src="https://github.com/user-attachments/assets/d2e09226-2af3-43e5-b3d6-0f1bda2e6758" />
+
+<img width="497" height="627" alt="image" src="https://github.com/user-attachments/assets/78c39d9f-6573-4074-a071-a3fcd3702d64" />
+
+<img width="647" height="682" alt="image" src="https://github.com/user-attachments/assets/4adffc1f-ec54-4bfe-811c-08fe2a80155a" />
+
+<img width="732" height="766" alt="image" src="https://github.com/user-attachments/assets/4e02efc4-f28e-474a-9e74-dae22e04e84d" />
+
+<img width="512" height="787" alt="image" src="https://github.com/user-attachments/assets/4db8e7e8-e847-433f-8f6d-5f415a713647" />
+
+<img width="568" height="801" alt="image" src="https://github.com/user-attachments/assets/763c86c0-2fcc-4619-ad4d-c93d6fbcc044" />
+
+Содержимое модуля analytics-vm:
+
+<img width="656" height="753" alt="image" src="https://github.com/user-attachments/assets/9874250f-be26-47b4-a550-55d3c06f0f84" />
+
+<img width="560" height="817" alt="image" src="https://github.com/user-attachments/assets/9ac450cc-9025-40cf-966e-1e189f354a16" />
+
+<img width="717" height="803" alt="image" src="https://github.com/user-attachments/assets/ffc22c59-da2f-4f70-8c8f-48644e855ff0" />
+
+<img width="531" height="808" alt="image" src="https://github.com/user-attachments/assets/465530d0-c139-4050-8170-89816c5327e2" />
+
+<img width="420" height="797" alt="image" src="https://github.com/user-attachments/assets/dbd23514-f87f-46e0-9a63-9d6478f47693" />
+
+<img width="567" height="507" alt="image" src="https://github.com/user-attachments/assets/e3ee669f-62fc-4d2f-84cf-8acd5a2133ca" />
+
+## Задание 2
 
 
 
