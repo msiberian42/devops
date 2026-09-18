@@ -12,3 +12,11 @@ variable "v4_cidr_blocks" {
   description = "CIDR блоки подсети"
   type        = list(string)
 }
+
+# variable "subnets" {
+#   description = "Список подсетей"
+#   type = list(object({
+#     zone = string
+#     cidr = string
+#   }))
+# }
