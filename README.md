@@ -129,9 +129,11 @@
 
 <img width="1301" height="582" alt="image" src="https://github.com/user-attachments/assets/70d7f73d-ab21-4bc2-872f-6bd8cdf363b6" />
 
+Коммит проекта по итогам задания 3 [тут](https://github.com/msiberian42/devops/commit/f5994955aedbd21c4dbdb2f2233adff4c318699e)
+
 ## Задание 4
 
-
+**Измените модуль vpc так, чтобы он мог создать подсети во всех зонах доступности, переданных в переменной типа list(object) при вызове модуля.**
 
 
 
