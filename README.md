@@ -227,6 +227,12 @@
 
 ## Задание 7
 
+**Разверните у себя локально vault, используя docker-compose.yml в проекте.
+Для входа в web-интерфейс и авторизации terraform в vault используйте токен "education".
+Создайте новый секрет по пути http://127.0.0.1:8200/ui/vault/secrets/secret/create Path: example
+secret data key: test secret data value: congrats!
+Считайте этот секрет с помощью terraform и выведите его в output**
+
 Docker-compose:
 
 <img width="572" height="436" alt="image" src="https://github.com/user-attachments/assets/adf2550e-231a-488c-8354-7641a48a1655" />
@@ -241,8 +247,17 @@ main.tf:
 
 <img width="668" height="92" alt="image" src="https://github.com/user-attachments/assets/fe53f7e1-cc0e-4f85-bacc-5c5000fd41c4" />
 
+**Попробуйте самостоятельно разобраться в документации и записать новый секрет в vault с помощью terraform.**
 
+Создание нового секрета:
 
+<img width="518" height="206" alt="image" src="https://github.com/user-attachments/assets/4f709b28-66e3-4388-9d8a-8c46fc6fd294" />
 
+Результат:
 
+<img width="877" height="645" alt="image" src="https://github.com/user-attachments/assets/645f5430-57a6-4295-ae2a-0ec926ffd6b6" />
+
+<img width="947" height="697" alt="image" src="https://github.com/user-attachments/assets/ec2cbe2b-9691-4924-bef4-0eaf2df9a5e2" />
+
+## Задание 8
 
