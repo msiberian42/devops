@@ -179,7 +179,7 @@
 
 Вызов модуля:
 
-<img width="623" height="465" alt="image" src="https://github.com/user-attachments/assets/adcffa70-f336-48f4-b782-524719c06cdb" />
+<img width="626" height="482" alt="image" src="https://github.com/user-attachments/assets/3d03bbe2-ab6c-4098-ba01-e0d911586054" />
 
 **2. Напишите модуль для создания базы данных и пользователя в уже существующем кластере managed БД Mysql. Используйте ресурсы yandex_mdb_mysql_database и yandex_mdb_mysql_user: передайте имя базы данных, имя пользователя и id кластера при вызове модуля.**
 
@@ -207,12 +207,15 @@
 
 <img width="1451" height="377" alt="image" src="https://github.com/user-attachments/assets/40e3da00-4fb7-4a2d-b63c-d8564a057493" />
 
-<img width="1390" height="368" alt="image" src="https://github.com/user-attachments/assets/59d2ab03-acc3-42ce-8198-6efef41fcbc6" />
+<img width="1207" height="157" alt="image" src="https://github.com/user-attachments/assets/86f312da-435a-4b63-9665-6bfcb7ca3144" />
 
 Меняем переменную mysql_ha на true. Результат:
 
 <img width="1227" height="251" alt="image" src="https://github.com/user-attachments/assets/77141dd2-b470-4a79-9c83-558f11c68cd6" />
 
+Коммит проекта по итогам задания 5 [тут](https://github.com/msiberian42/devops/commit/0201b28f15b0412f34bcf49784c603516cb02366)
+
+## Задание 6
 
 
 
