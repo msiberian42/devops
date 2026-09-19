@@ -93,24 +93,3 @@ variable "project_variables" {
     }
   }
 }
-
-variable "mysql_cluster_name" {
-  description = "Имя MySQL кластера"
-  type        = string
-}
-
-variable "mysql_ha" {
-  description = "Использовать два хоста MySQL"
-  type        = bool
-  default     = true
-}
-
-variable "mysql_database_name" {
-  description = "Имя базы данных MySQL"
-  type        = string
-}
-
-variable "mysql_user_name" {
-  description = "Имя пользователя MySQL"
-  type        = string
-}
