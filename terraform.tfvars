@@ -1,5 +1,7 @@
-mysql_cluster_name = "mysql-develop"
-mysql_ha           = true
+mysql_cluster_name = "example"
+mysql_ha           = false
 
-mysql_database_name = "app_db"
-mysql_user_name     = "app_user"
+mysql_database_name = "test"
+mysql_user_name     = "app"
+
+env_name = "develop"
