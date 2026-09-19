@@ -163,7 +163,7 @@
 
 ## Задание 5
 
-**Напишите модуль для создания кластера managed БД Mysql в Yandex Cloud с одним или несколькими(2 по умолчанию) хостами в зависимости от переменной HA=true или HA=false. Используйте ресурс yandex_mdb_mysql_cluster: передайте имя кластера и id сети.**
+**1. Напишите модуль для создания кластера managed БД Mysql в Yandex Cloud с одним или несколькими(2 по умолчанию) хостами в зависимости от переменной HA=true или HA=false. Используйте ресурс yandex_mdb_mysql_cluster: передайте имя кластера и id сети.**
 
 Создаем каталог modules/mysql/. Создаем в нем файлы main.tf, variables.tf, outputs.tf, providers.tf:
 
@@ -181,6 +181,37 @@
 
 <img width="623" height="465" alt="image" src="https://github.com/user-attachments/assets/adcffa70-f336-48f4-b782-524719c06cdb" />
 
+**2. Напишите модуль для создания базы данных и пользователя в уже существующем кластере managed БД Mysql. Используйте ресурсы yandex_mdb_mysql_database и yandex_mdb_mysql_user: передайте имя базы данных, имя пользователя и id кластера при вызове модуля.**
+
+Создаем каталог modules/mysql_database/. Создаем в нем файлы main.tf, variables.tf, outputs.tf, providers.tf:
+
+<img width="715" height="278" alt="image" src="https://github.com/user-attachments/assets/f844082a-27c3-4629-af27-eb18ea7002d3" />
+
+<img width="572" height="383" alt="image" src="https://github.com/user-attachments/assets/c070ed51-b2d7-479a-b4a1-0b11a5b9e820" />
+
+<img width="652" height="261" alt="image" src="https://github.com/user-attachments/assets/04d8ed34-6b6b-408d-ac30-03649beebe57" />
+
+<img width="510" height="253" alt="image" src="https://github.com/user-attachments/assets/c9803088-2d6e-4e9f-bc31-da52fc498fad" />
+
+Вызов модуля:
+
+<img width="492" height="382" alt="image" src="https://github.com/user-attachments/assets/3ea5a8e2-9ad0-4bb2-9927-4ac015cf712f" />
+
+**3. Используя оба модуля, создайте кластер example из одного хоста, а затем добавьте в него БД test и пользователя app. Затем измените переменную и превратите сингл хост в кластер из 2-х серверов.**
+
+Переменные кластера из одного хоста:
+
+<img width="426" height="251" alt="image" src="https://github.com/user-attachments/assets/7d88d92a-5359-498d-9025-618364bd988a" />
+
+Результат:
+
+<img width="1451" height="377" alt="image" src="https://github.com/user-attachments/assets/40e3da00-4fb7-4a2d-b63c-d8564a057493" />
+
+<img width="1390" height="368" alt="image" src="https://github.com/user-attachments/assets/59d2ab03-acc3-42ce-8198-6efef41fcbc6" />
+
+Меняем переменную mysql_ha на true. Результат:
+
+<img width="1227" height="251" alt="image" src="https://github.com/user-attachments/assets/77141dd2-b470-4a79-9c83-558f11c68cd6" />
 
 
 
