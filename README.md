@@ -227,8 +227,19 @@
 
 ## Задание 7
 
+Docker-compose:
 
+<img width="572" height="436" alt="image" src="https://github.com/user-attachments/assets/adf2550e-231a-488c-8354-7641a48a1655" />
 
+main.tf:
+
+<img width="770" height="595" alt="image" src="https://github.com/user-attachments/assets/8130ea11-1b28-4ae6-befa-e5cb2b2172ae" />
+
+Секрет:
+
+<img width="560" height="193" alt="image" src="https://github.com/user-attachments/assets/bc1f7336-f230-4881-977a-901c313c8b42" />
+
+<img width="668" height="92" alt="image" src="https://github.com/user-attachments/assets/fe53f7e1-cc0e-4f85-bacc-5c5000fd41c4" />
 
 
 
