@@ -163,6 +163,26 @@
 
 ## Задание 5
 
+**Напишите модуль для создания кластера managed БД Mysql в Yandex Cloud с одним или несколькими(2 по умолчанию) хостами в зависимости от переменной HA=true или HA=false. Используйте ресурс yandex_mdb_mysql_cluster: передайте имя кластера и id сети.**
+
+Создаем каталог modules/mysql/. Создаем в нем файлы main.tf, variables.tf, outputs.tf, providers.tf:
+
+<img width="822" height="542" alt="image" src="https://github.com/user-attachments/assets/c82382a0-16e5-4283-b139-209c50102ef5" />
+
+<img width="782" height="727" alt="image" src="https://github.com/user-attachments/assets/28748467-25f2-44ed-8598-617de7f89bde" />
+
+<img width="407" height="416" alt="image" src="https://github.com/user-attachments/assets/e4bd805a-2569-457d-9954-6df729e9f5d4" />
+
+<img width="648" height="277" alt="image" src="https://github.com/user-attachments/assets/aafb5664-a3b6-46b8-826a-5cc6fcebebc7" />
+
+<img width="452" height="250" alt="image" src="https://github.com/user-attachments/assets/4893e708-5b61-4209-9e5c-6c7a624ba243" />
+
+Вызов модуля:
+
+<img width="623" height="465" alt="image" src="https://github.com/user-attachments/assets/adcffa70-f336-48f4-b782-524719c06cdb" />
+
+
+
 
 
 
