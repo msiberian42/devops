@@ -16,6 +16,34 @@
 #   v4_cidr_blocks = var.default_cidr
 # }
 
+module "mysql" {
+  source = "./modules/mysql"
+
+  cluster_name = var.mysql_cluster_name
+  network_id   = module.vpc_prod.network_id
+
+  subnets = [
+    {
+      zone      = "ru-central1-a"
+      subnet_id = module.vpc_prod.subnets["ru-central1-a"].id
+    },
+    {
+      zone      = "ru-central1-b"
+      subnet_id = module.vpc_prod.subnets["ru-central1-b"].id
+    }
+  ]
+
+  ha = true
+}
+
+module "mysql_database" {
+  source = "./modules/mysql_database"
+
+  cluster_id    = module.mysql.cluster_id
+  database_name = var.mysql_database_name
+  user_name     = var.mysql_user_name
+}
+
 module "vpc_prod" {
   source   = "./modules/vpc"
   env_name = "production"
@@ -45,8 +73,8 @@ data "template_file" "cloudinit" {
 
 # ВМ для marketing
 module "marketing-vm" {
-  source         = "git::https://github.com/udjin10/yandex_compute_instance.git?ref=main"
-  env_name       = var.env_name
+  source   = "git::https://github.com/udjin10/yandex_compute_instance.git?ref=main"
+  env_name = var.env_name
   # network_id     = module.vpc.subnet.network_id
   #   subnet_zones   = [module.vpc.subnet.zone]
   # subnet_ids     = [module.vpc.subnet.id]
@@ -71,8 +99,8 @@ module "marketing-vm" {
 
 # ВМ для analytics
 module "analytics-vm" {
-  source         = "git::https://github.com/udjin10/yandex_compute_instance.git?ref=main"
-  env_name       = var.env_name
+  source   = "git::https://github.com/udjin10/yandex_compute_instance.git?ref=main"
+  env_name = var.env_name
   #   network_id     = [module.vpc.subnet.network_id]
   # subnet_zones   = [module.vpc.subnet.zone]
   # subnet_ids     = [module.vpc.subnet.id]

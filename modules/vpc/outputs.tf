@@ -1,7 +1,7 @@
-# output "subnet" {
-#   description = "Информация о созданной подсети"
-#   value       = yandex_vpc_subnet.my_vpc
-# }
+output "subnets" {
+  description = "Информация о созданной подсети"
+  value       = yandex_vpc_subnet.vpc_list
+}
 
 output "subnet" {
   description = "Информация о созданной подсети"
