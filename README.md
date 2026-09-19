@@ -259,5 +259,37 @@ main.tf:
 
 <img width="947" height="697" alt="image" src="https://github.com/user-attachments/assets/ec2cbe2b-9691-4924-bef4-0eaf2df9a5e2" />
 
+Коммит проекта по итогам задания 7 [тут](https://github.com/msiberian42/devops/commit/b82dcc6aaeefb4f226a02c433256f6167e847f5b)
+
 ## Задание 8
+
+**Попробуйте самостоятельно разобраться в документаци и с помощью terraform remote state разделить root модуль на два отдельных root-модуля: создание VPC , создание ВМ**
+
+Выносим создание сети в каталог vpc и создание вм в каталог vm. Сперва создаем сеть: 
+
+<img width="1012" height="255" alt="image" src="https://github.com/user-attachments/assets/d7c9b693-71df-46dc-9eeb-ed8fabfee72d" />
+
+В vm/main.tf создаем обращение к новому vpc и подставляем его в переменные в ВМ:
+
+<img width="432" height="206" alt="image" src="https://github.com/user-attachments/assets/a72308cc-d741-4c2f-9e44-7584423d78de" />
+
+<img width="828" height="373" alt="image" src="https://github.com/user-attachments/assets/1bd5538d-d608-4e37-b3a5-06811ee702ac" />
+
+Создаем ВМ:
+
+<img width="828" height="396" alt="image" src="https://github.com/user-attachments/assets/48a127d4-a52b-4f6b-8e3a-dd2e88f9d52c" />
+
+Результат:
+
+<img width="557" height="170" alt="image" src="https://github.com/user-attachments/assets/7296dc2c-d530-444d-8976-47e67a071ecf" />
+
+<img width="1172" height="251" alt="image" src="https://github.com/user-attachments/assets/ed723bb6-45aa-4f09-b217-b2a83856e24c" />
+
+<img width="1135" height="311" alt="image" src="https://github.com/user-attachments/assets/258fe68f-4a50-49d2-bbfe-c56e82670d3c" />
+
+<img width="1277" height="377" alt="image" src="https://github.com/user-attachments/assets/ad931b01-1c59-4372-a9a3-235482b4d7cd" />
+
+Коммит проекта по итогам задания 8 [тут](https://github.com/msiberian42/devops/commit/ad984d88eeacffd68fc1555f90ab125775acb178)
+
+
 
