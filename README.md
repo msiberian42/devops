@@ -217,6 +217,20 @@
 
 ## Задание 6
 
+**Используя готовый yandex cloud terraform module и пример его вызова(examples/simple-bucket): https://github.com/terraform-yc-modules/terraform-yc-s3 . Создайте и не удаляйте для себя s3 бакет размером 1 ГБ(это бесплатно), он пригодится вам в ДЗ к 5 лекции.**
+
+<img width="537" height="133" alt="image" src="https://github.com/user-attachments/assets/ded0b788-91da-47bf-9dee-de763d1efaa6" />
+
+<img width="1283" height="260" alt="image" src="https://github.com/user-attachments/assets/7cdc1ab4-1b0f-4d95-b894-5f545d19f89b" />
+
+Коммит проекта по итогам задания 6 [тут](https://github.com/msiberian42/devops/commit/e2216515bbf919e8bdc1e192f90c9f640bc23ee4)
+
+## Задание 7
+
+
+
+
+
 
 
 
