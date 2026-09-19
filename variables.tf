@@ -44,3 +44,8 @@ variable "compute_disk_resources" {
     }
   }
 }
+
+variable "provisioner_command" {
+  type        = string
+  description = "provisioner_command"
+}

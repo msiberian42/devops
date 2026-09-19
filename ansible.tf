@@ -47,7 +47,7 @@ resource "null_resource" "ansible_provision" {
   count = var.web_provision ? 1 : 0
 
   provisioner "local-exec" {
-    command = "wsl ansible-playbook -i /mnt/c/git_repositories/devops/for.ini /mnt/c/git_repositories/devops/test.yml"
+    command = var.provisioner_command
   }
 
   depends_on = [
