@@ -113,5 +113,22 @@ type=list(string), description="список ip-адресов" — провер
 
 ## Задание 5
 
+Переменные:
+
+<img width="762" height="305" alt="image" src="https://github.com/user-attachments/assets/f9984803-3976-4b8f-8957-a460fe0ea362" />
+
+<img width="571" height="653" alt="image" src="https://github.com/user-attachments/assets/75e2cf47-6194-44b3-9e3f-ff48f7832857" />
+
+С правильными значениями:
+
+<img width="602" height="87" alt="image" src="https://github.com/user-attachments/assets/4620d2fe-63a3-4bee-a9cf-0b5d269e8e19" />
+
+С неправильными:
+
+<img width="705" height="308" alt="image" src="https://github.com/user-attachments/assets/542d662f-4cb3-4c30-9413-971ea058a74b" />
+
+<img width="725" height="332" alt="image" src="https://github.com/user-attachments/assets/2c9a8246-4abc-44ba-81be-5d6c9abb0481" />
+
+## Задание 6
 
 
