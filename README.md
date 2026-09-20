@@ -70,6 +70,20 @@
 
 <img width="988" height="347" alt="image" src="https://github.com/user-attachments/assets/b191d0cb-e509-484e-a6d4-1dfbc3c70c8d" />
 
+**Закоммитьте в ветку 'terraform-05' все изменения.**
+
+Коммит [тут](https://github.com/msiberian42/devops/commit/ed1483c2afa792f1cc08d71319d5e5e42ce30f80)
+
+**Откройте в проекте terraform console, а в другом окне из этой же директории попробуйте запустить terraform apply.
+Пришлите ответ об ошибке доступа к state (блокировка должна сработать автоматически).**
+
+<img width="1047" height="486" alt="image" src="https://github.com/user-attachments/assets/b1e4be97-c6d2-4fd2-a5a2-a5d598e5b7b2" />
+
+**Принудительно разблокируйте state командой terraform force-unlock <LOCK_ID>. Пришлите команду и вывод.**
+
+<img width="917" height="283" alt="image" src="https://github.com/user-attachments/assets/295f3eaa-fbec-419b-9ae0-d935d556d920" />
+
+## Задание 3
 
 
 
