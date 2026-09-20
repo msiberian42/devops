@@ -46,6 +46,30 @@
 
 <img width="1052" height="50" alt="image" src="https://github.com/user-attachments/assets/bbcda4cb-0072-4c3d-aa40-276261723fc3" />
 
+Добавляем state в бакет:
+
+<img width="787" height="302" alt="image" src="https://github.com/user-attachments/assets/8b8dd100-3204-4bd4-a740-34b1c6578f84" />
+
+<img width="802" height="301" alt="image" src="https://github.com/user-attachments/assets/3bf5bf29-a44f-4188-ac89-8af8fbec1e3b" />
+
+Теперь при plan или apply в бакете создается объект блокировки:
+
+<img width="1348" height="472" alt="image" src="https://github.com/user-attachments/assets/bcdfc994-af79-42b2-bde7-fde68d3e5ef1" />
+
+Добавляем backend в модули vpc и vm, делаем terraform init -migrate-state:
+
+<img width="550" height="502" alt="image" src="https://github.com/user-attachments/assets/f374607e-c885-4de2-bf8d-0e63a39a83b5" />
+
+<img width="525" height="491" alt="image" src="https://github.com/user-attachments/assets/f2d67498-2fc3-4253-808c-c8405ef65bf4" />
+
+<img width="672" height="166" alt="image" src="https://github.com/user-attachments/assets/90c66199-4266-44e5-b761-be962bb6bcdc" />
+
+<img width="802" height="156" alt="image" src="https://github.com/user-attachments/assets/0d35de79-e261-42b5-9ffc-c7e0f80597d4" />
+
+Результат:
+
+<img width="988" height="347" alt="image" src="https://github.com/user-attachments/assets/b191d0cb-e509-484e-a6d4-1dfbc3c70c8d" />
+
 
 
 
