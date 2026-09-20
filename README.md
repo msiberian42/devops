@@ -89,8 +89,29 @@ Pull request [тут](https://github.com/msiberian42/devops/pull/1)
 
 ## Задание 4
 
+**Напишите переменные с валидацией и протестируйте их, заполнив default верными и неверными значениями. Предоставьте скриншоты проверок из terraform console.
+type=string, description="ip-адрес" — проверка, что значение переменной содержит верный IP-адрес с помощью функций cidrhost() или regex(). Тесты: "192.168.0.1" и "1920.1680.0.1";
+type=list(string), description="список ip-адресов" — проверка, что все адреса верны. Тесты: ["192.168.0.1", "1.1.1.1", "127.0.0.1"] и ["192.168.0.1", "1.1.1.1", "1270.0.0.1"].**
 
+Переменная с одним значением:
 
+<img width="1110" height="415" alt="image" src="https://github.com/user-attachments/assets/302a9bf9-c2ec-4f0f-a782-20f640b8b022" />
+
+Переменная со списком:
+
+<img width="1097" height="672" alt="image" src="https://github.com/user-attachments/assets/d551afe9-26c0-48e8-971e-e52919208706" />
+
+С правильными значениями:
+
+<img width="575" height="92" alt="image" src="https://github.com/user-attachments/assets/08bc6ce9-af81-405b-8a67-3ac142680114" />
+
+С неправильными:
+
+<img width="711" height="362" alt="image" src="https://github.com/user-attachments/assets/eef086fd-41a4-479a-8ead-421749bbde1a" />
+
+<img width="707" height="346" alt="image" src="https://github.com/user-attachments/assets/a5feb154-6e14-4b18-a761-c7e534793036" />
+
+## Задание 5
 
 
 
