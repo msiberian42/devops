@@ -129,6 +129,19 @@ type=list(string), description="список ip-адресов" — провер
 
 <img width="725" height="332" alt="image" src="https://github.com/user-attachments/assets/2c9a8246-4abc-44ba-81be-5d6c9abb0481" />
 
+[Файл с переменными из заданий 5 и 6](https://github.com/msiberian42/devops/blob/terraform-05/variables.tf)
+
 ## Задание 6
+
+
+
+
+
+
+
+
+
+
+
 
 
