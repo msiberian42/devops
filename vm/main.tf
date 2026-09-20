@@ -1,8 +1,21 @@
 data "terraform_remote_state" "vpc" {
-  backend = "local"
+  # backend = "local"
+  backend = "s3"
 
   config = {
-    path = "../vpc/terraform.tfstate"
+    # path = "../vpc/terraform.tfstate"
+    bucket = "siberian-terraform-s3-bucket"
+    key    = "vpc/terraform.tfstate"
+    region = "us-east-1"
+
+    endpoints = {
+      s3 = "https://storage.yandexcloud.net"
+    }
+
+    skip_region_validation      = true
+    skip_credentials_validation = true
+    skip_requesting_account_id  = true
+    skip_s3_checksum            = true
   }
 }
 
