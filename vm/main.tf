@@ -1,4 +1,4 @@
-data "terraform_remote_state" "vpc" {
+﻿data "terraform_remote_state" "vpc" {
   # backend = "local"
   backend = "s3"
 
@@ -30,7 +30,7 @@ data "template_file" "cloudinit" {
 
 
 module "marketing_vm" {
-  source = "git::https://github.com/udjin10/yandex_compute_instance.git?ref=main"
+  source = "git::https://github.com/udjin10/yandex_compute_instance.git?ref=a230c79"
 
   env_name = var.env_name
 
@@ -63,7 +63,7 @@ module "marketing_vm" {
 
 
 module "analytics_vm" {
-  source = "git::https://github.com/udjin10/yandex_compute_instance.git?ref=main"
+  source = "git::https://github.com/udjin10/yandex_compute_instance.git?ref=a230c79"
 
   env_name = var.env_name
 

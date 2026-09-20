@@ -1,10 +1,10 @@
-variable "env_name" {
-  description = "Имя окружения"
+﻿variable "env_name" {
+  description = "enviroment name"
   type        = string
 }
 
 variable "subnets" {
-  description = "Список подсетей"
+  description = "subnets list"
   type = list(object({
     zone = string
     cidr = string

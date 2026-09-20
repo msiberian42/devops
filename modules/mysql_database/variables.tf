@@ -1,4 +1,4 @@
-variable "cluster_id" {
+﻿variable "cluster_id" {
   description = "ID существующего MySQL кластера"
   type        = string
 }

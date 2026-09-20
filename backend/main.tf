@@ -1,5 +1,5 @@
-module "s3_bucket" {
-  source = "git::https://github.com/terraform-yc-modules/terraform-yc-s3.git"
+﻿module "s3_bucket" {
+  source = "git::https://github.com/terraform-yc-modules/terraform-yc-s3.git?ref=791f536"
 
   bucket_name = "siberian-terraform-s3-bucket"
 

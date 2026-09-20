@@ -1,4 +1,4 @@
-output "subnets" {
+﻿output "subnets" {
   description = "Информация о созданной подсети"
   value       = yandex_vpc_subnet.vpc_list
 }

@@ -1,4 +1,4 @@
-# resource "yandex_vpc_network" "my_vpc" {
+﻿# resource "yandex_vpc_network" "my_vpc" {
 #   name = var.network_name
 # }
 

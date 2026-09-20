@@ -1,4 +1,4 @@
-terraform {
+﻿terraform {
   required_version = "~>1.12.0"
 
   required_providers {
@@ -39,10 +39,6 @@ provider "yandex" {
 }
 
 provider "aws" {
-
-  access_key = "fake-access-key"
-  secret_key = "fake-secret-key"
-
   skip_region_validation      = true
   skip_credentials_validation = true
   skip_requesting_account_id  = true
