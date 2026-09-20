@@ -32,5 +32,21 @@
 
 ## Задание 2
 
+**Настройте remote state с встроенными блокировками**
+
+Создаем в проекте каталог backend. Переносим туда код создания бакета из предыдущего ДЗ, поднимаем бакет:
+
+<img width="241" height="318" alt="image" src="https://github.com/user-attachments/assets/38a4a18d-3fd9-434f-b907-c0e4f953fb8c" />
+
+<img width="1077" height="176" alt="image" src="https://github.com/user-attachments/assets/a4cb8a66-61f1-4a75-9381-9c92adc53d8f" />
+
+Получаем ключ доступа для моего сервисного аккаунта и добавляем его в переменную окружения, чтобы s3 мог его использовать:
+
+<img width="946" height="172" alt="image" src="https://github.com/user-attachments/assets/cdb0ed6a-07a4-472a-8008-517186bfc1dd" />
+
+<img width="1052" height="50" alt="image" src="https://github.com/user-attachments/assets/bbcda4cb-0072-4c3d-aa40-276261723fc3" />
+
+
+
 
 
