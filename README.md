@@ -148,8 +148,39 @@ type=list(string), description="список ip-адресов" — провер
 
 ## Задание 7
 
+**Настройте отдельный terraform root модуль, который будет создавать инфраструктуру для remote state:
+S3 bucket для tfstate с версионированием
+Сервисный аккаунт с необходимыми правами (storage.editor)
+Static access key для сервисного аккаунта
+Output должен содержать:
+Имя bucket
+Access key ID и Secret key (sensitive)
+Пример конфигурации backend для использования**
 
+Создаем каталог terraform-state в каталоге проекта.
+terraform-state/main.tf:
 
+<img width="937" height="847" alt="image" src="https://github.com/user-attachments/assets/c5627409-df36-48e3-9635-4ce9402113b7" />
 
+terraform-state/output.tf:
+
+<img width="917" height="775" alt="image" src="https://github.com/user-attachments/assets/5dcfa0c7-ed81-4736-a001-77c24889bc54" />
+
+<img width="645" height="112" alt="image" src="https://github.com/user-attachments/assets/32ec7815-28c3-4818-93ab-e06bd84a5e8b" />
+
+Теперь сервисный аккаунт создается и настраивается автоматически.
+
+**После создания инфраструктуры используйте outputs для настройки backend в основном проекте.**
+
+Креды передаем через $env:AWS_ACCESS_KEY_ID="$(terraform output -raw access_key_id)" и $env:AWS_SECRET_ACCESS_KEY="$(terraform output -raw secret_key)" в каталоге terraform-state.
+Заменяем в main.tf в vm и vpc бакет и выполняем в каталогах terraform init -migrate-state:
+
+<img width="526" height="145" alt="image" src="https://github.com/user-attachments/assets/bbd20a8a-e8c3-4b1a-8b21-936e09afae4f" />
+
+<img width="655" height="73" alt="image" src="https://github.com/user-attachments/assets/d50df35f-ad4e-4468-9e42-ca21e0d6df03" />
+
+<img width="1227" height="408" alt="image" src="https://github.com/user-attachments/assets/b4ca4955-ab2a-4ead-80eb-291c9e27b654" />
+
+Коммит по итогам задания 7 [тут](https://github.com/msiberian42/devops/commit/9f5995483e1c9924c8b7e7d40d0a45de1816dfce)
 
 
