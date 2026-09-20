@@ -133,12 +133,20 @@ type=list(string), description="список ip-адресов" — провер
 
 ## Задание 6
 
+Создаем файл [.gitlab-ci.yaml](https://github.com/msiberian42/devops/blob/terraform-05/.gitlab-ci.yml)
+Создаем проект в гитлаб, добавляем переменные, пушим в него репозиторий.
 
+<img width="1412" height="755" alt="image" src="https://github.com/user-attachments/assets/54c9338b-ff0b-4b34-9dcf-a01e27d7c0c4" />
 
+Ждем, пока проходят проверки validate. Запускаем apply. Проверяем, что инфраструктура создалась.
 
+<img width="1370" height="528" alt="image" src="https://github.com/user-attachments/assets/615b79f2-aca8-4a47-9b6b-c57fc2a48463" />
 
+Запускаем destroy.
 
+<img width="1428" height="582" alt="image" src="https://github.com/user-attachments/assets/835d9e97-8489-4da5-8e0d-060a103cffd9" />
 
+## Задание 7
 
 
 
