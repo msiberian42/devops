@@ -1,0 +1,51 @@
+stages:
+  - validate
+  - deploy
+  - destroy
+
+image:
+  name: hashicorp/terraform:1.12
+  entrypoint: [""]
+
+variables:
+  TF_IN_AUTOMATION: "true"
+  TF_INPUT: "false"
+
+before_script:
+  - terraform version
+
+validate_vpc:
+  stage: validate
+  script:
+    - cd vpc
+    - terraform init
+    - terraform validate
+
+validate_vm:
+  stage: validate
+  script:
+    - cd vm
+    - terraform init
+    - terraform validate
+
+apply:
+  stage: deploy
+  script:
+    - cd vpc
+    - terraform init
+    - terraform apply -auto-approve
+    - cd ../vm
+    - terraform init
+    - terraform apply -auto-approve
+  when: manual
+
+destroy:
+  stage: destroy
+  script:
+    - cd vm
+    - terraform init
+    - terraform destroy -auto-approve
+    - cd ../vpc
+    - terraform init
+    - terraform destroy -auto-approve
+  when: manual
