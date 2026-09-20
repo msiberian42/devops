@@ -1,4 +1,4 @@
-resource "yandex_mdb_mysql_cluster" "my_cluster" {
+﻿resource "yandex_mdb_mysql_cluster" "my_cluster" {
   name        = var.cluster_name
   network_id  = var.network_id
   environment = "PRESTABLE"

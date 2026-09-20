@@ -1,4 +1,4 @@
-output "database_id" {
+﻿output "database_id" {
   description = "ID созданной базы данных"
   value       = yandex_mdb_mysql_database.my_database.id
 }

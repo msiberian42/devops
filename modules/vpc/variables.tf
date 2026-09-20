@@ -1,4 +1,4 @@
-# variable "network_name" {
+﻿# variable "network_name" {
 #   description = "Название VPC сети"
 #   type        = string
 # }
