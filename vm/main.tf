@@ -4,7 +4,8 @@ data "terraform_remote_state" "vpc" {
 
   config = {
     # path = "../vpc/terraform.tfstate"
-    bucket = "siberian-terraform-s3-bucket"
+    # bucket = "siberian-terraform-s3-bucket"
+    bucket = "siberian-terraform-state"
     key    = "vpc/terraform.tfstate"
     region = "us-east-1"
 

@@ -6,7 +6,8 @@ terraform {
   }
   required_version = "~>1.12.0"
   backend "s3" {
-    bucket = "siberian-terraform-s3-bucket"
+    # bucket = "siberian-terraform-s3-bucket"
+    bucket = "siberian-terraform-state"
     key    = "vpc/terraform.tfstate"
     region = "ru-central1"
 
