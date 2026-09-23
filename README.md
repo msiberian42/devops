@@ -25,7 +25,17 @@
 
 [Код модуля](https://github.com/msiberian42/YC-Terraform-Docker-Project/tree/vpc/vpc)
 
-3. 
+3. Создаем в проекте модуль vm для разворачивания виртуальных машин. Прописываем в нем создание группы безопасности:
+
+<img width="1052" height="346" alt="image" src="https://github.com/user-attachments/assets/75538164-f469-4cfd-93fc-ad758d9f904d" />
+
+<img width="701" height="356" alt="image" src="https://github.com/user-attachments/assets/4693d4ec-fe3b-411b-9d0a-29d18ef41cd5" />
+
+<img width="1406" height="770" alt="image" src="https://github.com/user-attachments/assets/d389d0b9-9efc-47e9-b0a1-eecb4009e933" />
+
+[Код модуля](https://github.com/msiberian42/YC-Terraform-Docker-Project/tree/vm/vm)
+
+4. 
 
 
 
