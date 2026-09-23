@@ -35,8 +35,15 @@
 
 [Код модуля](https://github.com/msiberian42/YC-Terraform-Docker-Project/tree/vm/vm)
 
-4. 
+4. Создаем в проекте модуль db для разворачивание базы данных. В ней прописываем разворачивание ВМ для БД, ее группу безопасности, установку mysql и создание базы данных через cloud-config файл. Создаем в машине базу данных mysql, пользователя и пароль.
 
+<img width="1077" height="402" alt="image" src="https://github.com/user-attachments/assets/55d43da6-e52d-4b2f-ad1c-f7be42074c6b" />
 
+<img width="227" height="256" alt="image" src="https://github.com/user-attachments/assets/cd591622-6828-44fc-974d-7abbf5768ece" />
 
+<img width="382" height="272" alt="image" src="https://github.com/user-attachments/assets/8321f144-1b9c-4424-af85-d48d7f8ba308" />
+
+[Код модуля](https://github.com/msiberian42/YC-Terraform-Docker-Project/tree/mysql/db)
+
+5. 
 
