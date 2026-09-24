@@ -61,6 +61,8 @@
 
 <img width="480" height="91" alt="image" src="https://github.com/user-attachments/assets/c3742905-478c-4b8d-b129-5476089172a0" />
 
+[Код модуля](https://github.com/msiberian42/YC-Terraform-Docker-Project/tree/docker/web)
+
 ## Задание 3
 
 
