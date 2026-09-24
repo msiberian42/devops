@@ -45,5 +45,12 @@
 
 [Код модуля](https://github.com/msiberian42/YC-Terraform-Docker-Project/tree/mysql/db)
 
-5. 
+5. Создаем в проекте модуль container_registry для создания регистра контейнеров. Создаем в модуле сервисный аккаунт для скачивания образов.
+
+<img width="1032" height="365" alt="image" src="https://github.com/user-attachments/assets/77b84c76-6472-43dd-aa78-43e7eae8ff3d" />
+
+[Код модуля](https://github.com/msiberian42/YC-Terraform-Docker-Project/tree/main/container_registry)
+
+## Задание 2
+
 
