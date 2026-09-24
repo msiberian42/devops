@@ -53,4 +53,16 @@
 
 ## Задание 2
 
+**Установка Docker и Docker Compose на web ВМ.**
+
+Создаем в каталоге web yml файл cloud-config для установки докера. Обновляем конфигурацию и проверяем, что докер установился:
+
+<img width="673" height="537" alt="image" src="https://github.com/user-attachments/assets/c3c0092f-4e1b-44ac-9d19-e89da1cd0174" />
+
+<img width="480" height="91" alt="image" src="https://github.com/user-attachments/assets/c3742905-478c-4b8d-b129-5476089172a0" />
+
+## Задание 3
+
+
+
 
