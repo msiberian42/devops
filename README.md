@@ -83,6 +83,27 @@
 
 ## Задание 4
 
+**Завязывание работы приложения в контейнере на БД в Yandex Cloud.**
+
+Удаляем из compose файла сервис db. Теперь приложение получает параметры базы данных и внутренний ip ВМ mysql при создании ВМ web через cloud-init:
+
+<img width="525" height="483" alt="image" src="https://github.com/user-attachments/assets/78a44bd1-e70e-48e8-b760-97edae214d59" />
+
+<img width="671" height="527" alt="image" src="https://github.com/user-attachments/assets/93cc7d9f-bc33-4f96-95fd-d61db6bd3600" />
+
+Создание групп безопасности выносим в отдельный модуль. Добавляем в группу безопасности web порт 8090. [Код модуля](https://github.com/msiberian42/YC-Terraform-Docker-Project/tree/database/securiry)
+Проверяем, что приложение и БД работают. Через интернет отправляем запрос по ip адресу web машины и порту 8090. В mysql появляется запись запроса:
+
+<img width="631" height="87" alt="image" src="https://github.com/user-attachments/assets/e994a6fb-9764-4e16-a99a-9b9da5810443" />
+
+<img width="578" height="270" alt="image" src="https://github.com/user-attachments/assets/c819fe9b-47f2-447d-9cf8-aa7294b03931" />
+
+<img width="410" height="235" alt="image" src="https://github.com/user-attachments/assets/3c7df4c7-5eda-4438-87f7-bae9e66a8278" />
+
+## Задание 5
+
+
+
 
 
 
