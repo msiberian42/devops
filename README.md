@@ -65,6 +65,26 @@
 
 ## Задание 3
 
+**Создание образа для веб-приложения. Поднятие docker compose через terraform.**
+
+Создаем Container Registry в yandex cloud. Создаем образ из Dockerfile и пушим его в Container Registry:
+
+<img width="1356" height="450" alt="image" src="https://github.com/user-attachments/assets/7398a1ce-99cf-437a-b996-0fb50eb534f7" />
+
+В модуле web дорабатываем web-init.yml и блок template файл. Теперь при создании ВМ на ней создаются нужные каталоги и файлы compose.yaml, haproxy.cfg, default.conf, nginx.conf. .env, скачивается наш образ из регистра, а также образы nginx и haproxy и поднимается docker compose:
+
+<img width="1030" height="667" alt="image" src="https://github.com/user-attachments/assets/5b4a3a79-f6bb-4030-ab63-1d8824794a2e" />
+
+<img width="777" height="122" alt="image" src="https://github.com/user-attachments/assets/ae9a1d10-7b98-4eb0-9105-61e921df7ca9" />
+
+<img width="718" height="123" alt="image" src="https://github.com/user-attachments/assets/d21070ab-7266-42f7-a49a-b02ff16ae27a" />
+
+[Код](https://github.com/msiberian42/YC-Terraform-Docker-Project/tree/compose)
+
+## Задание 4
+
+
+
 
 
 
