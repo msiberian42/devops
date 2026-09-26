@@ -71,6 +71,8 @@
 
 <img width="1356" height="450" alt="image" src="https://github.com/user-attachments/assets/7398a1ce-99cf-437a-b996-0fb50eb534f7" />
 
+[Сам докерфайл](https://github.com/msiberian42/shvirtd-example-python/blob/main/Dockerfile.python)
+
 В модуле web дорабатываем web-init.yml и блок template файл. Теперь при создании ВМ на ней создаются нужные каталоги и файлы compose.yaml, haproxy.cfg, default.conf, nginx.conf. .env, скачивается наш образ из регистра, а также образы nginx и haproxy и поднимается docker compose:
 
 <img width="1030" height="667" alt="image" src="https://github.com/user-attachments/assets/5b4a3a79-f6bb-4030-ab63-1d8824794a2e" />
@@ -102,7 +104,7 @@
 
 ## Задание 5
 
-
+**Настройка интеграции с lockbox**
 
 
 
