@@ -106,6 +106,20 @@
 
 **Настройка интеграции с lockbox**
 
+Создаем в проекта модуль lockbox. Настраиваем в нем создание lockbox и генерацию пароля бд внутри него, чтобы приложение и база данных могли его получать оттуда, и при этом пароль не попадал в state:
+
+<img width="727" height="477" alt="image" src="https://github.com/user-attachments/assets/cd4bd232-1d23-4270-b026-950fefc9f51e" />
+
+<img width="850" height="263" alt="image" src="https://github.com/user-attachments/assets/54d938d1-964d-4342-95d1-8425dfeeae94" />
+
+В модулях web и db убираем переменную db_password и настраиваем получение пароля из локбокса через data. Создаем сервисные аккаунты с ролью lockbox.payloadViewer:
+
+<img width="807" height="233" alt="image" src="https://github.com/user-attachments/assets/615f5f98-472b-444d-ab8f-fd06b4600e7e" />
+
+<img width="738" height="271" alt="image" src="https://github.com/user-attachments/assets/e20ab69a-5f60-4c8f-9aa0-1e89a755d157" />
+
+[Код модуля](https://github.com/msiberian42/YC-Terraform-Docker-Project/tree/lockbox/lockbox)
+
 
 
 
