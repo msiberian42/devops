@@ -120,6 +120,9 @@
 
 [Код модуля](https://github.com/msiberian42/YC-Terraform-Docker-Project/tree/lockbox/lockbox)
 
+[Репозиторий с итоговым кодом проекта](https://github.com/msiberian42/YC-Terraform-Docker-Project)
+
+[Ссылка на веб-приложение](http://51.250.69.222:8090/)
 
 
 
