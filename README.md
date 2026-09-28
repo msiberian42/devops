@@ -42,8 +42,31 @@
 
 <img width="942" height="137" alt="image" src="https://github.com/user-attachments/assets/4a85e171-8512-4607-9301-c9058511b08f" />
 
+<img width="322" height="238" alt="image" src="https://github.com/user-attachments/assets/61de36fe-489e-4760-a28d-b7a8a0c07b1a" />
+
+# Необязательные задания
+
+**1. При помощи ansible-vault расшифруйте все зашифрованные файлы с переменными.**
+
+<img width="933" height="136" alt="image" src="https://github.com/user-attachments/assets/02304979-005f-4585-975b-3ceab0facd96" />
+
+**2. Зашифруйте отдельное значение PaSSw0rd для переменной some_fact паролем netology. Добавьте полученное значение в group_vars/all/exmp.yml. Запустите playbook, убедитесь, что для нужных хостов применился новый fact**
+
+<img width="1090" height="250" alt="image" src="https://github.com/user-attachments/assets/f2face02-2af7-40ca-94d9-d5ee86358de9" />
+
+<img width="1033" height="272" alt="image" src="https://github.com/user-attachments/assets/dc5787f3-599c-453c-8c8d-102b9629b105" />
+
+<img width="301" height="245" alt="image" src="https://github.com/user-attachments/assets/14d9a982-0c6a-4ebe-b7b2-5336dd19af71" />
+
+**Добавьте новую группу хостов fedora, самостоятельно придумайте для неё переменную.**
+
+Добавьте новую группу хостов fedora, самостоятельно придумайте для неё переменную.
 
 
+<img width="487" height="536" alt="image" src="https://github.com/user-attachments/assets/3bb6c486-85c7-49fc-886c-129820e6054b" />
+
+
+<img width="453" height="123" alt="image" src="https://github.com/user-attachments/assets/32ac149d-cfe4-4770-834d-f3bea6361b74" />
 
 
 
