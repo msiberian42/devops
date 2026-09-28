@@ -16,6 +16,15 @@
 
 <img width="427" height="195" alt="image" src="https://github.com/user-attachments/assets/afbf13ad-b4e4-4b08-9949-5218c649e04e" />
 
+**4. Проведите запуск playbook на окружении из prod.yml. Зафиксируйте полученные значения some_fact для каждого из managed host.**
+
+<img width="222" height="203" alt="image" src="https://github.com/user-attachments/assets/c33b6f59-9d58-49bb-8590-255f76996755" />
+
+**5. Добавьте факты в group_vars каждой из групп хостов так, чтобы для some_fact получились значения: для deb — deb default fact, для el — el default fact.**
+
+
+
+
 
 
 
