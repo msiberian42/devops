@@ -2,7 +2,7 @@
 
 **1. Попробуйте запустить playbook на окружении из test.yml, зафиксируйте значение, которое имеет факт some_fact для указанного хоста при выполнении playbook.**
 
-Значение some_fact - 12Ж
+Значение some_fact - 12:
 
 <img width="535" height="322" alt="image" src="https://github.com/user-attachments/assets/e958dadd-62e5-4fc2-9ca8-76ba336d5603" />
 
@@ -60,15 +60,11 @@
 
 **Добавьте новую группу хостов fedora, самостоятельно придумайте для неё переменную.**
 
-Добавьте новую группу хостов fedora, самостоятельно придумайте для неё переменную.
-
-
 <img width="487" height="536" alt="image" src="https://github.com/user-attachments/assets/3bb6c486-85c7-49fc-886c-129820e6054b" />
-
 
 <img width="453" height="123" alt="image" src="https://github.com/user-attachments/assets/32ac149d-cfe4-4770-834d-f3bea6361b74" />
 
+**Напишите скрипт на bash: автоматизируйте поднятие необходимых контейнеров, запуск ansible-playbook и остановку контейнеров.**
 
-
-
+[Скрипт](https://github.com/msiberian42/ansible_hw1/blob/main/run.sh)
 
