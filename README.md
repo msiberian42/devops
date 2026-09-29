@@ -48,11 +48,15 @@ block считается таской и должен иметь имя:
 
 <img width="1243" height="52" alt="image" src="https://github.com/user-attachments/assets/002e706c-d230-4c78-bcc2-5641a9a20994" />
 
+**8.Повторно запустите playbook с флагом --diff и убедитесь, что playbook идемпотентен.**
 
+<img width="1060" height="100" alt="image" src="https://github.com/user-attachments/assets/5d96abef-03df-44fc-a474-47ad53d768aa" />
 
+<img width="793" height="141" alt="image" src="https://github.com/user-attachments/assets/9785cd5b-e348-46ff-b0b0-f0e48b428670" />
 
+<img width="956" height="122" alt="image" src="https://github.com/user-attachments/assets/0c733094-9c91-436d-8475-2b69a7d56ba8" />
 
+**10. Готовый playbook выложите в свой репозиторий, поставьте тег 08-ansible-02-playbook на фиксирующий коммит, в ответ предоставьте ссылку на него.**
 
-
-
+[Коммит](https://github.com/msiberian42/ansible_hw2/releases/tag/08-ansible-02-playbook)
 
