@@ -40,9 +40,13 @@
 
 **9. Подготовьте README.md-файл по своему playbook. В нём должно быть описано: что делает playbook, какие у него есть параметры и теги.**
 
+[README](https://github.com/msiberian42/ansible_hw3/blob/main/README.md)
 
+**10. Готовый playbook выложите в свой репозиторий, поставьте тег 08-ansible-03-yandex на фиксирующий коммит, в ответ предоставьте ссылку на него.**
 
-## Проверка работы сервисов
+[Релиз](https://github.com/msiberian42/ansible_hw3/releases/tag/08-ansible-03-yandex)
+
+### Проверка работы сервисов
 
 ClickHouse:
 
@@ -59,8 +63,3 @@ Vector:
 LightHouse:
 
 <img width="836" height="417" alt="image" src="https://github.com/user-attachments/assets/a17bd5ed-007b-4131-8941-35a8867bf036" />
-
-
-
-
-
