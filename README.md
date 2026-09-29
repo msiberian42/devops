@@ -16,7 +16,11 @@
 
 **5. Запустите ansible-lint site.yml и исправьте ошибки, если они есть.**
 
+<img width="717" height="243" alt="image" src="https://github.com/user-attachments/assets/a7297e6f-28b7-458f-b2d8-29e915f20a92" />
 
+Не хватает переноса строки в конце site.yml
+
+<img width="705" height="67" alt="image" src="https://github.com/user-attachments/assets/a627569d-1145-419c-bf56-294db33280ad" />
 
 
 
