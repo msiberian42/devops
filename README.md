@@ -18,10 +18,23 @@
 8. Выложите все roles в репозитории. Проставьте теги, используя семантическую нумерацию. Добавьте roles в requirements.yml в playbook.**
 
 [Репозиторий vector](https://github.com/msiberian42/vector-role)
+
 [readme vector](https://github.com/msiberian42/vector-role/blob/main/README.md)
+
 [тег vector](https://github.com/msiberian42/vector-role/releases/tag/1.0)
 
-[]
-[]
-[]
+[Репозиторий lighthouse](https://github.com/msiberian42/lighthouse-role)
+
+[readme lighthouse](https://github.com/msiberian42/lighthouse-role/blob/main/README.md)
+
+[тег lighthouse](https://github.com/msiberian42/lighthouse-role/releases/tag/1.0)
+
+<img width="697" height="486" alt="image" src="https://github.com/user-attachments/assets/e21e936a-3d33-4542-a7a0-25bbe6e95487" />
+
+**9. Переработайте playbook на использование roles. Не забудьте про зависимости LightHouse и возможности совмещения roles с tasks. Выложите playbook в репозиторий.**
+
+<img width="1007" height="715" alt="image" src="https://github.com/user-attachments/assets/709234fb-e1bb-4344-baea-ce69c4591a09" />
+
+[Репозиторий playbook](https://github.com/msiberian42/ansible_hw4/tree/main/playbook)
+
 
