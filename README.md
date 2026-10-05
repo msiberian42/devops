@@ -38,5 +38,24 @@
 
 # Tox
 
+**4. Создайте облегчённый сценарий для molecule с драйвером molecule_podman. Проверьте его на исполнимость.**
+
+<img width="921" height="442" alt="image" src="https://github.com/user-attachments/assets/a7b7e99a-316d-4203-b197-ad264beba25e" />
+
+**5. Пропишите правильную команду в tox.ini, чтобы запускался облегчённый сценарий.**
+
+<img width="652" height="95" alt="image" src="https://github.com/user-attachments/assets/f38c6a0f-c1c6-49b5-86f8-abb9c474db84" />
+
+**6. Запустите команду tox. Убедитесь, что всё отработало успешно.**
+
+<img width="332" height="50" alt="image" src="https://github.com/user-attachments/assets/e17d1e12-effe-49b1-ad0d-a72e4be1612b" />
+
+<img width="335" height="22" alt="image" src="https://github.com/user-attachments/assets/da59734b-ff7b-4d1f-a945-43619747ebd4" />
+
+<img width="321" height="26" alt="image" src="https://github.com/user-attachments/assets/de751145-3e16-4ef8-bd68-8de791bb5b2a" />
+
+**7. Добавьте новый тег на коммит с рабочим сценарием в соответствии с семантическим версионированием.**
+
+
 
 
