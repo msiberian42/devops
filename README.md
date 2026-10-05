@@ -1,5 +1,7 @@
 ## Домашнее задание к занятию 5 «Тестирование roles»
 
+# Molecule
+
 **1. Запустите molecule test -s ubuntu_xenial (или с любым другим сценарием, не имеет значения) внутри корневой директории clickhouse-role, посмотрите на вывод команды.**
 
 <img width="1462" height="427" alt="image" src="https://github.com/user-attachments/assets/71e25aa6-05b7-4278-95fe-2b541355c391" />
@@ -20,7 +22,21 @@
 
 **4. Добавьте несколько assert в verify.yml-файл для проверки работоспособности vector-role (проверка, что конфиг валидный, проверка успешности запуска и др.).**
 
+<img width="526" height="476" alt="image" src="https://github.com/user-attachments/assets/1575c600-f45d-4d6c-b08a-808faa64bb81" />
 
+<img width="532" height="563" alt="image" src="https://github.com/user-attachments/assets/1cda8afc-0505-4e25-af6e-0e9d9f694cdb" />
+
+<img width="611" height="513" alt="image" src="https://github.com/user-attachments/assets/5a390cd5-2860-4404-95e8-ff6ccc144a3b" />
+
+**5. Запустите тестирование роли повторно и проверьте, что оно прошло успешно.**
+
+<img width="912" height="366" alt="image" src="https://github.com/user-attachments/assets/3637b271-49bc-4b58-adda-e01db0da7099" />
+
+**6. Добавьте новый тег на коммит с рабочим сценарием в соответствии с семантическим версионированием.**
+
+[Релиз](https://github.com/msiberian42/vector-role/releases/tag/1.1)
+
+# Tox
 
 
 
