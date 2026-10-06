@@ -59,14 +59,20 @@
 
 **7. Добавьте новый тег на коммит с рабочим сценарием в соответствии с семантическим версионированием.**
 
-[Релиз](https://github.com/msiberian42/vector-role/releases/tag/1.2)
+[Релиз](https://github.com/msiberian42/vector-role/releases/tag/1.3)
 
 # LightHouse
 
+**1. Проделайте схожие манипуляции для создания роли LightHouse.**
 
+[Релиз](https://github.com/msiberian42/lighthouse-role/releases/tag/1.1)
 
+**2. Создайте сценарий внутри любой из своих ролей, который умеет поднимать весь стек при помощи всех ролей. 3. Убедитесь в работоспособности своего стека. Создайте отдельный verify.yml, который будет проверять работоспособность интеграции всех инструментов между ними.**
 
+<img width="846" height="307" alt="image" src="https://github.com/user-attachments/assets/4f235416-6ce1-4617-b9a5-e005321fd920" />
 
+**4. Выложите свои roles в репозитории.**
 
-
-
+[clickhouse + playbook](https://github.com/msiberian42/clickhouse-role/releases/tag/1.0)
+[vector](https://github.com/msiberian42/vector-role/releases/tag/1.3)
+[lighthouse](https://github.com/msiberian42/lighthouse-role/releases/tag/1.1)
