@@ -1,5 +1,7 @@
 ## Домашнее задание к занятию 6 «Создание собственных модулей»
 
+### Основная часть
+
 **1. В виртуальном окружении создайте новый my_own_module.py файл. 
 2. Наполните его содержимым 
 3. Заполните файл в соответствии с требованиями Ansible так, чтобы он выполнял основную задачу: module должен создавать текстовый файл на удалённом хосте по пути, определённом в параметре path, с содержимым, определённым в параметре content. 4. Проверьте module на исполняемость локально.**
@@ -37,5 +39,16 @@
 [Релиз](https://github.com/msiberian42/my_own_collection/releases/tag/1.0.0)
 [Коллекция](https://github.com/msiberian42/my_own_collection/tree/main/collections/ansible_collections/my_own_namespace/yandex_cloud_elk)
 [Архив](https://github.com/msiberian42/my_own_collection/tree/main/archive)
+
+### Необязательная часть
+
+**1. Реализуйте свой модуль для создания хостов в Yandex Cloud. 2. Модуль может и должен иметь зависимость от yc, основной функционал: создание ВМ с нужным сайзингом на основе нужной ОС. 4. Протестируйте модуль на идемпотентность, исполнимость. При успехе добавьте этот модуль в свою коллекцию.**
+
+<img width="903" height="65" alt="image" src="https://github.com/user-attachments/assets/3f6fb034-6e74-4389-8a7e-21ea465c7843" />
+
+<img width="882" height="127" alt="image" src="https://github.com/user-attachments/assets/bfcaadb6-4841-40d0-90fd-840502ea901e" />
+
+<img width="886" height="83" alt="image" src="https://github.com/user-attachments/assets/8f085041-7e02-4cc7-a6c6-a9ec837222a8" />
+
 
 
