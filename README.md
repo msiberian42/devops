@@ -18,3 +18,10 @@
 
 <img width="811" height="452" alt="image" src="https://github.com/user-attachments/assets/77a7f7b0-eaad-46e0-b601-6e7ec39e3723" />
 
+**8. Инициализируйте новую collection: ansible-galaxy collection init my_own_namespace.yandex_cloud_elk. 9. В эту collection перенесите свой module в соответствующую директорию. 10. Single task playbook преобразуйте в single task role и перенесите в collection. У role должны быть default всех параметров module. 11. Создайте playbook для использования этой role. 12. Заполните всю документацию по collection, выложите в свой репозиторий, поставьте тег 1.0.0 на этот коммит.**
+
+[Релиз](https://github.com/msiberian42/my_own_collection/releases/tag/1.0.0)
+
+
+
+
