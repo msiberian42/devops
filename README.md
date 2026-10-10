@@ -22,6 +22,18 @@
 
 [Релиз](https://github.com/msiberian42/my_own_collection/releases/tag/1.0.0)
 
+**13. Создайте .tar.gz этой collection: ansible-galaxy collection build в корневой директории collection. 14. Создайте ещё одну директорию любого наименования, перенесите туда single task playbook и архив c collection. 15. Установите collection из локального архива: ansible-galaxy collection install <archivename>.tar.gz.**
+
+<img width="790" height="197" alt="image" src="https://github.com/user-attachments/assets/d9813578-31d7-4486-84c7-a815a90415fb" />
+
+**16. Запустите playbook, убедитесь, что он работает.**
+
+<img width="947" height="370" alt="image" src="https://github.com/user-attachments/assets/3b7f8da3-e0d6-41a8-88a3-f1b9b3ded188" />
+
+<img width="938" height="427" alt="image" src="https://github.com/user-attachments/assets/7d63f19e-6801-46bb-97cc-57dd904bc3f7" />
+
+
+
 
 
 
