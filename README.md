@@ -32,8 +32,10 @@
 
 <img width="938" height="427" alt="image" src="https://github.com/user-attachments/assets/7d63f19e-6801-46bb-97cc-57dd904bc3f7" />
 
+**17. В ответ необходимо прислать ссылки на collection и tar.gz архив, а также скриншоты выполнения пунктов 4, 6, 15 и 16.**
 
-
-
+[Релиз](https://github.com/msiberian42/my_own_collection/releases/tag/1.0.0)
+[Коллекция](https://github.com/msiberian42/my_own_collection/tree/main/collections/ansible_collections/my_own_namespace/yandex_cloud_elk)
+[Архив](https://github.com/msiberian42/my_own_collection/tree/main/archive)
 
 
