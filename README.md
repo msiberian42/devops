@@ -50,5 +50,9 @@
 
 <img width="886" height="83" alt="image" src="https://github.com/user-attachments/assets/8f085041-7e02-4cc7-a6c6-a9ec837222a8" />
 
+[Код модуля](https://github.com/msiberian42/my_own_collection/blob/main/my_own_namespace/yandex_cloud_elk/plugins/modules/yc_instance.py)
 
+**5. Измените playbook так, чтобы он умел создавать инфраструктуру под inventory, а после устанавливал весь ваш стек Observability на нужные хосты и настраивал его. 6. В итоге ваша коллекция обязательно должна содержать: clickhouse-role (если есть своя), lighthouse-role, vector-role, два модуля: my_own_module и модуль управления Yandex Cloud хостами и playbook, который демонстрирует создание Observability стека.**
+
+[Playbook](https://github.com/msiberian42/my_own_collection/tree/main/observability_playbook)
 
