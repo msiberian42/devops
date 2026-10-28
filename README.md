@@ -33,3 +33,17 @@
 <img width="737" height="162" alt="image" src="https://github.com/user-attachments/assets/7d2a8f04-7121-472f-bd59-60eaa3ab5f31" />
 
 **12. Сделайте push всех изменений в новую ветку репозитория. 13. Убедитесь, что сборка самостоятельно запустилась, тесты прошли успешно.**
+
+<img width="1397" height="527" alt="image" src="https://github.com/user-attachments/assets/71ea692c-a97a-4210-a931-02207bf4d17c" />
+
+**14. Внесите изменения из произвольной ветки feature/add_reply в master через Merge. 15. Убедитесь, что нет собранного артефакта в сборке по ветке master. 16. Настройте конфигурацию так, чтобы она собирала .jar в артефакты сборки. 17. Проведите повторную сборку мастера, убедитесь, что сбора прошла успешно и артефакты собраны.**
+
+<img width="432" height="196" alt="image" src="https://github.com/user-attachments/assets/564323b0-14e1-4ab9-8440-2b3b5684e054" />
+
+<img width="1377" height="543" alt="image" src="https://github.com/user-attachments/assets/df636f6f-6133-46bf-a5c5-30a5897b7182" />
+
+<img width="423" height="481" alt="image" src="https://github.com/user-attachments/assets/9d6d9ad1-7176-4a51-a21a-f78ff43d9620" />
+
+**18. Проверьте, что конфигурация в репозитории содержит все настройки конфигурации из teamcity. 19. В ответе пришлите ссылку на репозиторий.**
+
+[Итоговый репозиторий](https://github.com/msiberian42/example-teamcity)
