@@ -26,6 +26,10 @@
 
 [Конфигурация](https://github.com/msiberian42/example-teamcity/tree/master/.teamcity)
 
-**9. Создайте отдельную ветку feature/add_reply в репозитории. 
+**9. Создайте отдельную ветку feature/add_reply в репозитории. 10. Напишите новый метод для класса Welcomer: метод должен возвращать произвольную реплику, содержащую слово hunter. 11. Дополните тест для нового метода на поиск слова hunter в новой реплике.**
 
+<img width="381" height="200" alt="image" src="https://github.com/user-attachments/assets/c06893b4-8e95-4adf-8b64-33afe00a4a71" />
 
+<img width="737" height="162" alt="image" src="https://github.com/user-attachments/assets/7d2a8f04-7121-472f-bd59-60eaa3ab5f31" />
+
+**12. Сделайте push всех изменений в новую ветку репозитория. 13. Убедитесь, что сборка самостоятельно запустилась, тесты прошли успешно.**
