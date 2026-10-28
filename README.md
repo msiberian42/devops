@@ -24,6 +24,8 @@
 
 **8. Мигрируйте build configuration в репозиторий.**
 
+[Конфигурация](https://github.com/msiberian42/example-teamcity/tree/master/.teamcity)
 
+**9. Создайте отдельную ветку feature/add_reply в репозитории. 
 
 
