@@ -79,3 +79,20 @@ Nagios - гибридная, Обычно Nagios инициирует прове
 
 <img width="1897" height="977" alt="image" src="https://github.com/user-attachments/assets/d9d13d8d-677b-4a78-b30b-96a465004b0e" />
 
+
+### Необязательно к выполнению
+
+
+
+
+**2. В веб-интерфейсе откройте вкладку Dashboards. Попробуйте создать свой dashboard.**
+
+<img width="1902" height="825" alt="image" src="https://github.com/user-attachments/assets/1ce980e6-0b5c-499b-a0f5-2f19b5ec467a" />
+
+
+
+
+
+
+
+
