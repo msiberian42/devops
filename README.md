@@ -82,13 +82,24 @@ Nagios - гибридная, Обычно Nagios инициирует прове
 
 ### Необязательно к выполнению
 
+**1. Для успешного выполнения задания нужно привести: 
+а) работающий код python3-скрипта, 
+б) конфигурацию cron-расписания, 
+в) пример верно сформированного 'YY-MM-DD-awesome-monitoring.log', имеющий не менее 5 записей**
 
+[Скрипт](https://github.com/msiberian42/devops/blob/homework_monitoring_1/monitoring.py)
 
+Cron:
+
+<img width="840" height="606" alt="image" src="https://github.com/user-attachments/assets/845f5a27-4c96-498c-87cd-2a7b158e829f" />
+
+Лог:
+
+<img width="1440" height="373" alt="image" src="https://github.com/user-attachments/assets/9929ec4d-20cf-4078-b7fe-2da501fe49bc" />
 
 **2. В веб-интерфейсе откройте вкладку Dashboards. Попробуйте создать свой dashboard.**
 
 <img width="1902" height="825" alt="image" src="https://github.com/user-attachments/assets/1ce980e6-0b5c-499b-a0f5-2f19b5ec467a" />
-
 
 
 
