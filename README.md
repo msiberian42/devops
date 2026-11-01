@@ -69,14 +69,11 @@ Nagios - гибридная, Обычно Nagios инициирует прове
 
 **7. Склонируйте себе репозиторий и запустите TICK-стэк, используя технологии docker и docker-compose. В виде решения на это упражнение приведите скриншот веб-интерфейса ПО chronograf (http://localhost:8888).**
 
-
-
-
+<img width="1863" height="972" alt="image" src="https://github.com/user-attachments/assets/6a24fd3e-a805-4f13-b1c7-8b0416ac64e6" />
 
 **8. Для выполнения задания приведите скриншот с отображением метрик утилизации cpu из веб-интерфейса.**
 
-
-
+<img width="1918" height="983" alt="image" src="https://github.com/user-attachments/assets/2f255293-89e0-47f2-976b-5dd16b866675" />
 
 **9. После настройке перезапустите telegraf, обновите веб интерфейс и приведите скриншотом список measurments в веб-интерфейсе базы telegraf.autogen . Там должны появиться метрики, связанные с docker.**
 
