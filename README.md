@@ -14,9 +14,7 @@
 
 CPU:
 
-`100 * (1 - avg by (instance) (
-  rate(node_cpu_seconds_total{mode="idle"}[5m])
-))`
+`100 - (avg by (instance) (rate(node_cpu_seconds_total{mode="idle"}[1m])) * 100)`
 
 CPULA 1/5/15:
 
