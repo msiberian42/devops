@@ -10,7 +10,7 @@
 
 **Для решения этого задания приведите promql-запросы для выдачи этих метрик, а также скриншот получившейся Dashboard.**
 
-<img width="1896" height="952" alt="image" src="https://github.com/user-attachments/assets/96ee1d7b-48d3-436a-a9dd-89687731370b" />
+<img width="1871" height="955" alt="image" src="https://github.com/user-attachments/assets/f57e135a-ffbe-46f8-8bac-24671ffda4ab" />
 
 CPU:
 
@@ -30,7 +30,7 @@ Available Memory:
 
 Filesystem Available Space:
 
-`node_filesystem_avail_bytes{instance="nodeexporter:9100", mountpoint="/mnt"}`
+`node_filesystem_avail_bytes{mountpoint="/mnt/host/c"}`
 
 ### Задание 3
 
