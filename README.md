@@ -38,5 +38,6 @@ Filesystem Available Space:
 
 ### Задание 4
 
+**Сохраните ваш Dashboard.Для этого перейдите в настройки Dashboard, выберите в боковом меню «JSON MODEL». Далее скопируйте отображаемое json-содержимое в отдельный файл и сохраните его. В качестве решения задания приведите листинг этого файла.**
 
-
+[Файл дашборда](https://github.com/msiberian42/devops/blob/homework_monitoring_2/my_dashboard.json)
