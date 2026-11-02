@@ -10,11 +10,11 @@
 
 **Для решения этого задания приведите promql-запросы для выдачи этих метрик, а также скриншот получившейся Dashboard.**
 
-<img width="1871" height="955" alt="image" src="https://github.com/user-attachments/assets/f57e135a-ffbe-46f8-8bac-24671ffda4ab" />
+<img width="1902" height="985" alt="image" src="https://github.com/user-attachments/assets/2098395f-896c-41c9-b9f1-a66748a94db2" />
 
 CPU:
 
-`100 - (avg by (instance) (rate(node_cpu_seconds_total{mode="idle"}[1m])) * 100)`
+`(100 - (avg by (instance) (rate(node_cpu_seconds_total{mode="idle"}[1m])) * 100)) * 100`
 
 CPULA 1/5/15:
 
@@ -34,6 +34,9 @@ Filesystem Available Space:
 
 **Создайте для каждой Dashboard подходящее правило alert. В качестве решения задания приведите скриншот вашей итоговой Dashboard.**
 
+<img width="1908" height="967" alt="image" src="https://github.com/user-attachments/assets/f3aa8d69-4c72-424d-a544-c6c66636f35b" />
+
+### Задание 4
 
 
 
