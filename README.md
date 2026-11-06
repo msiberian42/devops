@@ -18,3 +18,19 @@
 
 ### Задание 2
 
+**Перейдите в меню создания index-patterns в kibana и создайте несколько index-patterns из имеющихся.**
+
+Создаем общий шаблон logstash:
+
+<img width="1396" height="632" alt="image" src="https://github.com/user-attachments/assets/90303761-cd3d-4c64-8546-606000b053df" />
+
+Получившиеся индексы:
+
+<img width="1613" height="595" alt="image" src="https://github.com/user-attachments/assets/8607697f-26b2-4f8f-bc7c-c5bfbecef187" />
+
+Discover:
+
+<img width="1910" height="982" alt="image" src="https://github.com/user-attachments/assets/1e133b55-0ced-4860-8029-259176b20abd" />
+
+<img width="902" height="496" alt="image" src="https://github.com/user-attachments/assets/27559e58-8974-4688-97b4-bd1a1d7dbbda" />
+
