@@ -16,4 +16,10 @@
 
 ### Задание 3
 
+**В качестве решения задания пришлите скриншот тела сообщения из оповещения на почте.**
+
+<img width="772" height="631" alt="image" src="https://github.com/user-attachments/assets/7a22a4e5-9747-437b-8313-fb92ff1693e7" />
+
+<img width="711" height="640" alt="image" src="https://github.com/user-attachments/assets/c6b249d5-099f-448b-b533-a02c68223390" />
+
 
