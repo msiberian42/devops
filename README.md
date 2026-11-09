@@ -24,6 +24,6 @@
 
 ## Задание повышенной сложности
 
+<img width="598" height="477" alt="image" src="https://github.com/user-attachments/assets/d3887fbf-debc-4b78-b3f4-becceefe5477" />
 
-
-
+<img width="1431" height="661" alt="image" src="https://github.com/user-attachments/assets/9d693dd2-ab0d-4470-9913-b703caf19108" />
