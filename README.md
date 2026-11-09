@@ -22,4 +22,8 @@
 
 <img width="711" height="640" alt="image" src="https://github.com/user-attachments/assets/c6b249d5-099f-448b-b533-a02c68223390" />
 
+## Задание повышенной сложности
+
+
+
 
