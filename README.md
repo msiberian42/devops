@@ -40,3 +40,36 @@ Kong Gateway позволит организовать централизова�
 
 ### Задача 3: API Gateway * (необязательная)
 
+**Анонимная регистрация POST /v1/register**
+
+<img width="762" height="270" alt="image" src="https://github.com/user-attachments/assets/054e9f21-e4d4-48bc-ba8a-64aaf88067a8" />
+
+**Анонимный логин POST /v1/token**
+
+<img width="868" height="302" alt="image" src="https://github.com/user-attachments/assets/509d3712-727e-4914-896a-12dcb40b788a" />
+
+**Получение профиля с токеном GET /v1/user**
+
+<img width="760" height="167" alt="image" src="https://github.com/user-attachments/assets/c41e7a61-e5bb-466c-a24e-e961dfbb3982" />
+
+Без авторизации запрос не проходит:
+
+<img width="720" height="147" alt="image" src="https://github.com/user-attachments/assets/e9da1c1f-b2c1-49a9-97bd-f347eb1bb66a" />
+
+**Загрузка файла с токеном POST /v1/upload**
+
+<img width="857" height="313" alt="image" src="https://github.com/user-attachments/assets/a205576e-1310-49f1-a1a0-5de0840716f2" />
+
+**Получение файла с токеном GET /v1/user/{image}**
+
+<img width="822" height="397" alt="image" src="https://github.com/user-attachments/assets/0c72508b-b866-4f9a-8761-a4496176ce10" />
+
+Картинка загружается в текущую директорию:
+
+<img width="977" height="407" alt="image" src="https://github.com/user-attachments/assets/20b711d3-e283-4a37-9154-4eb1daffa98c" />
+
+Без авторизации запрос не проходит:
+
+<img width="778" height="162" alt="image" src="https://github.com/user-attachments/assets/fd01b1a7-cc64-413e-b85c-9d28350d40e2" />
+
+Ссылка на репозиторий с проектом и compose файлом
