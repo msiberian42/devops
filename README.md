@@ -72,4 +72,4 @@ Kong Gateway позволит организовать централизова�
 
 <img width="778" height="162" alt="image" src="https://github.com/user-attachments/assets/fd01b1a7-cc64-413e-b85c-9d28350d40e2" />
 
-Ссылка на репозиторий с проектом и compose файлом
+[Ссылка на репозиторий с проектом и compose файлом](https://github.com/msiberian42/api-gateway/blob/main/docker-compose.yml)
