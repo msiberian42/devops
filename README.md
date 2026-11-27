@@ -40,3 +40,9 @@ GitLab Cloud будет обеспечивать хранение и верси�
 
 ### Задача 4: Логи * (необязательная)
 
+[Репозиторий проекта](https://github.com/msiberian42/api-gateway/blob/kibana/docker-compose.yml)
+
+<img width="1681" height="916" alt="image" src="https://github.com/user-attachments/assets/4674b520-dd9d-4b00-ad12-a2d0ccba1ff3" />
+
+### Задача 5: Мониторинг * (необязательная)
+
