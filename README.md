@@ -46,3 +46,6 @@ GitLab Cloud будет обеспечивать хранение и верси�
 
 ### Задача 5: Мониторинг * (необязательная)
 
+[Репозиторий проекта](https://github.com/msiberian42/api-gateway/blob/monitoring/docker-compose.yml)
+
+<img width="1803" height="928" alt="image" src="https://github.com/user-attachments/assets/282c297a-bcd7-4e6d-869a-5e292c59a337" />
